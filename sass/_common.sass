@@ -112,10 +112,11 @@ body
 					color: #dd8405
 				&.is-active
 					color: #dd8405
+				.notif
+					position: absolute
+					top: -7px
+					left: 100%	
 .notif
-	position: absolute
-	top: -7px
-	left: 100%
 	height: 18px
 	line-height: 18px
 	text-align: center
@@ -127,6 +128,7 @@ body
 	+text-shadow(0 1px 0 rgba(231,138,6,.7))
 	
 // footer
+
 .footer
 	height: 168px
 	border-top: 5px solid #d17e08
@@ -138,10 +140,100 @@ body
 		line-height: 168px
 		
 // independent blocks
+
 .fl
 	float: left
 .fr
 	float: right
 .clr
-	+clr							
+	+clr
+.help
+	position: absolute
+	top: 50%
+	right: -51px
+	height: 40px
+	padding-left: 55px 
+	line-height: 40px
+	width: 87px
+	background: #d17d07
+	+border-radius(5px 5px 0 0)
+	font-size: 16px
+	text-decoration: none
+	font-weight: bold 
+	color: #fff
+	+transform(rotate(-90deg))
+	&:before
+		content: ""
+		position: absolute
+		top: 13px
+		left: 10px
+		+s(help)
+	&:after
+		content: ""
+		position: absolute
+		top: 0px
+		bottom: 0px
+		left: 43px
+		width: 1px
+		background: #ab6606
+
+// pagination
+
+.pagination
+	+clr
+	margin-bottom: 66px
+	.select
+		float: right
+		width: 47px
+		margin-left: 22px
+		span
+			padding-left: 9px
+			&:after
+				right: 8px  
+.pagination__nav
+	float: right
+	margin-left: 70px
+	a
+		position: relative
+		display: inline-block
+		width: 47px
+		height: 28px
+		margin-left: 10px   
+		+border-radius(2px)
+		background: #515151
+		&:first-child
+			margin-left: 0	
+		&.pagination__prev
+			&:before
+				content: ""
+				position: absolute
+				top: 50%
+				left: 50%
+				margin: -8px 0 0 -4px 
+				+s(arr-left)
+			&.is-disabled
+				background: #3d3d3d
+				&:before
+					+s(arr-left-grey)		
+		&.pagination__next
+			&:before
+				content: ""
+				position: absolute
+				top: 50%
+				left: 50%
+				margin: -8px 0 0 -4px 
+				+s(arr-right)			
+			&.is-disabled
+				background: #3d3d3d
+				&:before
+					+s(arr-right-grey)
+.pagination__pager
+	float: right
+	height: 28px
+	line-height: 28px
+	font-size: 12px
+	color: #eee  					 
+
+
+
 
