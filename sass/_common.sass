@@ -48,9 +48,11 @@ body
 	background: url(../img/bg.png) 
 
 .out
+	position: relative
 	height: 100%
 	min-height: 100%
 	height: auto
+	overflow: hidden
 	margin-bottom: -173px 
 .push
 	height: 173px 
@@ -147,10 +149,31 @@ body
 	float: right
 .clr
 	+clr
+.input, .textarea
+	padding: 0 10px   
+	+border-radius(2px)
+	background: #fff
+	border: 1px solid #cacaca
+	+box-shadow(inset 0 1px 2px rgba(0,0,0,.27))
+.textarea
+	padding: 10px 	
 .help
 	position: absolute
-	top: 50%
-	right: -51px
+	top: 400px
+	right: -459px
+	+box-shadow(-2px 2px 11px 0px #928E8E)
+	+transition(all 200ms linear)
+	z-index: 99
+	&.is-open
+		right: 0
+		.help__btn
+			+box-shadow(-2px -2px 11px 0px #928E8E)
+			&:before
+				+s(help-close)	
+.help__btn
+	position: absolute
+	top: 142px
+	left: -40px
 	height: 40px
 	padding-left: 55px 
 	line-height: 40px
@@ -161,7 +184,17 @@ body
 	text-decoration: none
 	font-weight: bold 
 	color: #fff
-	+transform(rotate(-90deg))
+	-webkit-transform-origin: 0% 0%
+	-moz-transform-origin: 0% 0%
+	-o-transform-origin: 0% 0%
+	-ms-transform-origin: 0% 0%
+	transform-origin: 0% 0%
+	-moz-transform: rotate(-90deg)
+	-o-transform: rotate(-90deg)
+	-webkit-transform: rotate(-90deg)
+	transform: rotate(-90deg)
+	-ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=3.061616999114022e-16, M12=1, M21=-1, M22=3.061616999114022e-16, SizingMethod='auto expand')"
+	cursor: pointer
 	&:before
 		content: ""
 		position: absolute
@@ -176,6 +209,85 @@ body
 		left: 43px
 		width: 1px
 		background: #ab6606
+	&:hover
+		right: -40px
+.lteie8
+	.help__btn
+		top: 0			
+.help__content
+	+border-radius(0 0 0 2px)
+	background: #eee
+	padding: 25px 22px 
+	width: 414px
+	height: 267px
+.help__title
+	font-size: 14px
+	color: #404040
+	margin-bottom: 28px
+.help__row
+	+clr
+	margin-bottom: 8px
+.help__left
+	float: left
+	width: 87px
+	padding-top: 7px 
+.help__right
+	float: right
+	width: 327px
+	.select
+		width: 100%
+		border: 1px solid #cacaca
+		+border-radius(3px)
+		background: #fff
+		+box-shadow(inset 0 1px 2px rgba(0,0,0,.1))
+		span
+			font-size: 12px
+			color: #404040
+			+text-shadow(none)
+			font-weight: normal
+			&:after
+				+s(arr-down-grey)
+		.select__list
+			border: 1px solid #cacaca			
+	.input
+		width: 100% 
+		height: 30px
+		+box
+	.textarea
+		height: 80px 	 
+		width: 100%
+		+box 
+.help__bot
+	+clr
+	padding-top: 18px
+.help__chat
+	float: left	
+	position: relative
+	height: 30px
+	line-height: 30px
+	padding: 0 20px 0 42px
+	color: #fff
+	text-decoration: none
+	font-weight: bold
+	+border-radius(2px)
+	+text-shadow(1px 0 1px #3f8515)  
+	background: #46b329
+	&:before
+		content: ""
+		position: absolute
+		top: 6px
+		left: 10px
+		+s(chat)
+.help__submit
+	float: right
+	height: 30px
+	line-height: 30px
+	padding: 0 20px
+	+border-radius(2px)
+	background: #d17d07
+	+text-shadow(1px 0 1px #be5d03)
+	color: #fff
+	font-weight: bold   		  
 
 // pagination
 

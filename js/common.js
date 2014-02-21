@@ -1,8 +1,4 @@
 $(document).ready(function() {
-	$(document).click(function() {
-        $(".js-select-list").hide();
-        $(".js-select").removeClass("is-active");
-    });
     function select() {
         $(".js-select").each(function(){
             var select_list = $(this).find(".js-select-list");
@@ -36,4 +32,20 @@ $(document).ready(function() {
     $('.js-select').click(function(event){
         event.stopPropagation();
     });
+
+    // help btn toggle
+
+    $(".help__btn").on('click', function(event){
+    	$(this).parent().toggleClass('is-open');
+    });
+    $('.help').click(function(event){
+        event.stopPropagation();
+    });
+
+    $(document).click(function() {
+        $(".js-select-list").hide();
+        $(".js-select").removeClass("is-active");
+        $(".help").removeClass('is-open');
+    });
+
 });
