@@ -131,8 +131,7 @@
 .box__menu
 	a
 		display: block
-		+clr
-		height: 30
+		height: 30px
 		padding: 0 22px 0 28px 
 		line-height: 30px
 		color: #fff
@@ -142,14 +141,18 @@
 		&:hover
 			background: #d97f00
 			+text-shadow(0 1px 0 #b36900)
-		p
-			float: left
-		p.notif
-			float: right
-			margin-top: 6px
 		&.is-active
 			background: #d97f00
 			+text-shadow(0 1px 0 #b36900)
+.notif-wrap
+	+clr
+	height: 40px
+	line-height: 40px 
+	p
+		float: left
+	p.notif
+		float: right
+		margin-top: 6px	
 .table
 	width: 100%
 	thead 							 	 	  	
@@ -163,7 +166,7 @@
 		border-left: 1px solid #d09b52
 		&:first-child
 			border-left: none 
-		span
+		p
 			position: relative
 			padding-right: 13px 
 			&:before
@@ -174,10 +177,12 @@
 				+s(arr-down-orange)
 	td
 		height: 40px
-		line-height: 40px
+		vertical-align: middle
 		border-left: 1px solid #d2d2d2
 		&:first-child
 			border-left: none
+		p.notif
+			margin-top: 10px 	
 	tbody
 		font-size: 13px
 		color: #404040
@@ -186,8 +191,7 @@
 				background: #f7f7f7 
 		td
 			padding: 0 9px
-			span
-				display: block
+			p
 				&.center
 					text-align: center  
 .checkbox_thead
