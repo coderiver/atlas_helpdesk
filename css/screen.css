@@ -135,8 +135,8 @@ body { min-width: 1000px; font-size: 12px; font-family: Tahoma, Arial, sans-seri
 .table thead { height: 48px; background: #f2bf78; color: #ac6e16; padding: 0 3px; }
 .table th { height: 48px; line-height: 48px; border-left: 1px solid #d09b52; }
 .table th:first-child { border-left: none; }
-.table th p { position: relative; padding-right: 13px; }
-.table th p:before { content: ""; position: absolute; top: 4px; right: 0px; background: url('../img/icons-s4b238a2178.png') 0 -335px no-repeat; width: 8px; height: 8px; }
+.table th p { position: relative; display: inline-block; padding-right: 13px; }
+.table th p:before { content: ""; position: absolute; top: 20px; right: 0px; background: url('../img/icons-s4b238a2178.png') 0 -335px no-repeat; width: 8px; height: 8px; }
 .table td { height: 40px; vertical-align: middle; border-left: 1px solid #d2d2d2; }
 .table td:first-child { border-left: none; }
 .table td p.notif { margin-top: 10px; }
