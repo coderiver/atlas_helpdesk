@@ -84,7 +84,7 @@
 .checkbox
 	+nosel
 	label
-		display: inline-block
+		display: block
 		line-height: 30px
 	input
 		+opacity(0)
@@ -194,27 +194,35 @@
 			padding: 0 9px
 			p
 				&.center
-					text-align: center  
+					text-align: center
+.table_new
+	.checkbox_tbody
+		i
+			&:before
+				left: -13px
+		input:checked + i
+			&:after
+				left: -9px		 					  
 .checkbox_thead
 	i
 		&:before
-			top: -26px
-			left: -11px
+			top: 0px
+			left: -17px
 			border: 1px solid #d09b52 
 	input:checked + i		
 		&:after
-			top: -22px
-			left: -7px
+			top: 4px
+			left: -13px
 .checkbox_tbody
 	i
 		&:before
-			top: -26px
-			left: 3px
+			top: -3px
+			left: -8px
 			border: 1px solid #ccc 
 	input:checked + i		
 		&:after
-			top: -21px
-			left: 7px
+			top: 1px
+			left: -4px
 .icon-letter
 	display: inline-block
 	+s(icon-letter)
