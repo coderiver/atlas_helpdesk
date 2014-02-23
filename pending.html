@@ -24,7 +24,7 @@
 			</div>
 			<nav class="menu">
 				<ul>
-					<li><a href="#"><span>About</span></a></li>
+					<li><a href="#"><span>О проекте</span></a></li>
 					<li><a href="#"><span>FAQ’s</span></a></li>
 					<li><a href="#" class="is-active"><span>Техподдержка</span><p class="notif">27</p></a></li>
 				</ul>
@@ -38,11 +38,12 @@
 				<div class="fr clr">
 					<div class="checkbox">
 						<label>
-							<input type="checkbox">
+							<input type="checkbox" id="mycheckbox">
 							<i></i>
-							<span>Мои клиенты</span>
+							
 						</label>
 					</div>
+					<label for="mycheckbox" class="checkbox__label">Мои клиенты</label>
 					<div class="select js-select">
 					    <span class="select__text js-select-text">Выбрать</span>
 					    <input type="hidden" class="js-select-input" value="0">
@@ -65,10 +66,10 @@
 				<div class="box__left">
 					<ul class="box__menu">
 						<li>
-							<a class="notif-wrap" href="#"><p>Новые</p><p class="notif">5</p></a>
+							<a class="notif-wrap" href="new.html"><p>Новые</p><p class="notif">5</p></a>
 						</li>
 						<li>
-							<a class="notif-wrap is-active" href="#"><p>В процессе</p><p class="notif">7</p></a>
+							<a class="notif-wrap is-active" href="pending.html"><p>В процессе</p><p class="notif">7</p></a>
 						</li>
 						<li>
 							<a class="notif-wrap" href="#"><p>Баги</p><p class="notif">15</p></a>
@@ -93,13 +94,13 @@
 										</label>
 									</div>
 								</th>
-								<th><p>Пользователь</p></th>
-								<th><p>Тема</p></th>
-								<th><p>Формат</p></th>
-								<th><p>Менеджер</p></th>
-								<th><p>Время</p></th>
-								<th><p>Дата</p></th>
-								<th><p>#</p></th>
+								<th><p>Пользователь<i class="is-up"></i></p></th>
+								<th><p>Тема<i></i></p></th>
+								<th><p>Формат<i></i></p></th>
+								<th><p>Менеджер<i></i></p></th>
+								<th><p>Время<i></i></p></th>
+								<th><p>Дата<i></i></p></th>
+								<th><p>#<i></i></p></th>
 							</tr>
 						</thead>
 						<tbody>
