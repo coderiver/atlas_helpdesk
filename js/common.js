@@ -42,6 +42,11 @@ $(document).ready(function() {
         event.stopPropagation();
     });
 
+    // table arrow toggle
+    $(".table th p").on('click', function(){
+    	$(this).find('i').toggleClass('is-up');
+    });
+
     $(document).click(function() {
         $(".js-select-list").hide();
         $(".js-select").removeClass("is-active");
