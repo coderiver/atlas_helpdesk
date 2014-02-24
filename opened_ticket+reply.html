@@ -34,7 +34,13 @@
 	<div class="container">
 		<div class="main">
 			<div class="tools">
-				<div class="fl"></div>
+				<div class="fl">
+					<div class="chat">
+						<i class="chat__icon"></i>
+						<span>Чат</span>
+						<i class="chat__number">3</i>
+					</div>
+				</div>
 				<div class="fr clr">
 					<div class="checkbox">
 						<label>
@@ -61,7 +67,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="box clr">
+			<div class="box box_chatting clr">
 				<div class="box__left">
 					<ul class="box__menu">
 						<li>
@@ -71,9 +77,6 @@
 							<a class="notif-wrap " href="pending.html"><p>В процессе</p><p class="notif">7</p></a>
 						</li>
 						<li>
-							<a class="notif-wrap" href="#"><p>Баги</p><p class="notif">15</p></a>
-						</li>
-						<li>
 							<a class="notif-wrap" href="#"><p>Закрытые</p></a>
 						</li>
 						<li>
@@ -81,130 +84,59 @@
 						</li>
 					</ul>
 				</div>
-				<div class="box__right">
-					<table class="table">
-						<thead>
-							<tr>
-								<th>
-									<div class="checkbox checkbox_thead">
-										<label>
-											<input type="checkbox">
-											<i></i>
-										</label>
+				<div class="box__right ">
+					<div class="chatting">
+						<div class="chatting__top">
+							<a class="chatting__back" href="#"></a>
+							<button class="btn">Ответить</button>
+							<div class="chatting__title">Добавление друзей</div>
+							<a class="chatting__ok" href="#"></a>
+						</div>
+						<div class="chatting__message">
+							<form>
+								<textarea></textarea>
+								<div class="chatting__btns">
+									<button class="btn">Отправить</button>
+									<button class="cancel" type="reset">Отменить</button>
+								</div>
+							</form>
+						</div>
+						<ul class="messages-list">
+							<li class="messages messages_admin">
+								<div class="messages__topper">
+									<div class="messages__username"><span>Angelina Jolie</span></div>
+									<div class="messages__info"><span>11:00</span>  <span>17 фев 2014</span></div>
+								</div>
+								<div class="messages__content">
+									<p>Jack,</p>
+									<p>Unfortunately your service has been terminated and all data has been removed from our servers. You will need to order a new service via our website. Should you have any further questions, feel free to ask.</p>
+									<p>Thank you.</p>
+								</div>
+							</li>
+							<li class="messages">
+								<div class="messages__topper">
+									<div class="messages__username"><span>Angelina Jolie</span></div>
+									<div class="messages__info">
+										<div class="rating">
+											<ul>
+												<li class="is-active"></li>
+												<li class="is-active"></li>
+												<li></li>
+												<li></li>
+												<li></li>
+											</ul>
+										</div>
+										<span>11:00</span>  <span>17 фев 2014</span>
 									</div>
-								</th>
-								<th><p>Пользователь<i class="is-up"></i></p></th>
-								<th><p>Тема<i></i></p></th>
-								<th><p>Формат<i></i></p></th>
-								<th><p>Время<i></i></p></th>
-								<th><p>Дата<i></i></p></th>
-								<th><p># <i></i></p></th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr class="white">
-								<td>
-									<div class="checkbox checkbox_tbody">
-										<label>
-											<input type="checkbox">
-											<i></i>
-										</label>
-									</div>
-								</td>
-								<td><div class="notif-wrap"><p>vakula</p></div></td>
-								<td><p>Передача трафика</p></td>
-								<td><p class="center"><i class="icon-letter"></i></p></td>
-								<td><p>10:45</p></td>
-								<td><p>17 фев 2014</p></td>
-								<td><p>15</p></td>
-							</tr>
-							<tr>
-								<td>
-									<div class="checkbox checkbox_tbody">
-										<label>
-											<input type="checkbox">
-											<i></i>
-										</label>
-									</div>
-								</td>
-								<td><div class="notif-wrap"><p>vakula</p></div></td>
-								<td><p>Передача трафика</p></td>
-								<td><p class="center"><i class="icon-chat-red"></i></p></td>
-								<td><p>10:45</p></td>
-								<td><p>17 фев 2014</p></td>
-								<td><p>15</p></td>
-							</tr>
-							<tr class="white">
-								<td>
-									<div class="checkbox checkbox_tbody">
-										<label>
-											<input type="checkbox">
-											<i></i>
-										</label>
-									</div>
-								</td>
-								<td><div class="notif-wrap"><p>vakula</p></div></td>
-								<td><p>Передача трафика</p></td>
-								<td><p class="center"><i class="icon-letter"></i></p></td>
-								<td><p>10:45</p></td>
-								<td><p>17 фев 2014</p></td>
-								<td><p>15</p></td>
-							</tr>
-							<tr>
-								<td>
-									<div class="checkbox checkbox_tbody">
-										<label>
-											<input type="checkbox">
-											<i></i>
-										</label>
-									</div>
-								</td>
-								<td><div class="notif-wrap"><p>vakula</p></div></td>
-								<td><p>Передача трафика</p></td>
-								<td><p class="center"><i class="icon-letter"></i></p></td>
-								<td><p>10:45</p></td>
-								<td><p>17 фев 2014</p></td>
-								<td><p>15</p></td>
-							</tr>
-							<tr class="white">
-								<td>
-									<div class="checkbox checkbox_tbody">
-										<label>
-											<input type="checkbox">
-											<i></i>
-										</label>
-									</div>
-								</td>
-								<td><div class="notif-wrap"><p>vakula</p></div></td>
-								<td><p>Передача трафика</p></td>
-								<td><p class="center"><i class="icon-letter"></i></p></td>
-								<td><p>10:45</p></td>
-								<td><p>17 фев 2014</p></td>
-								<td><p>15</p></td>
-							</tr>
-						</tbody>
-					</table>
+								</div>
+								<div class="messages__content">
+									<p>I need your help right now cmon</p>
+								</div>
+							</li>
+						</ul>	
+					</div>
 				</div>
 			</div>
-			<nav class="pagination">
-				<div class="pagination__nav">
-					<a class="pagination__prev" href="#"></a>
-					<a class="pagination__next is-disabled" href="#"></a>
-				</div>
-				<div class="select js-select">
-					<span class="select__text js-select-text">1</span>
-					<input type="hidden" class="js-select-input" value="0">
-					<ul class="select__list js-select-list">
-					    <li data-id="0">1</li>
-					    <li data-id="1">2</li>
-					    <li data-id="2">3</li>
-					    <li data-id="3">10</li>
-					    <li data-id="3">11</li>
-					    <li data-id="3">12</li>
-					</ul>
-				</div>
-				<div class="pagination__pager">1 – 5 (из 5)</div>
-			</nav>
 		</div>	
 	</div>
 	<div class="help">
