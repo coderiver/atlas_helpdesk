@@ -59,7 +59,7 @@ body { min-width: 1000px; font-size: 12px; font-family: Tahoma, Arial, sans-seri
 .menu ul { display: inline-block; margin-top: 16px; }
 .menu ul li { display: inline-block; margin-left: 45px; }
 .menu ul li:first-child { margin-left: 0; }
-.menu ul li a { position: relative; font-size: 18px; color: #eeeeee; font-weight: bold; text-decoration: none; -webkit-transition: color 0.2s linear; -moz-transition: color 0.2s linear; -o-transition: color 0.2s linear; transition: color 0.2s linear; }
+.menu ul li a { position: relative; font-size: 18px; color: #eeeeee; font-weight: bold; text-decoration: none; -webkit-font-smoothing: antialiased; -moz-font-smoothing: antialiased; -ms-font-smoothing: antialiased; -o-font-smoothing: antialiased; -webkit-transition: color 0.2s linear; -moz-transition: color 0.2s linear; -o-transition: color 0.2s linear; transition: color 0.2s linear; }
 .menu ul li a:hover { color: #d17e08; }
 .menu ul li a.is-active { color: #d17e08; }
 .menu ul li a .notif { position: absolute; top: -7px; left: 100%; }
