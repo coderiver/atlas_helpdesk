@@ -39,6 +39,9 @@
 // +font(book, cytiapro-black-webfont)  
 // =book
 // 	font-family: "book",arial,sans-serif 
+
+//vars
+$orange: #d17e08
 	
 body
 	min-width: 1000px
@@ -60,7 +63,12 @@ body
 .container
 	width: 1000px 
 	margin: 0 auto
-	 
+.h2, .h3
+	font-size: 20px
+	font-weight: bold
+	color: $orange
+.h3
+	font-size: 16px	 
 // header
 
 .header
@@ -111,9 +119,9 @@ body
 				text-decoration: none
 				+transition(color .2s linear)
 				&:hover
-					color: #dd8405
+					color: $orange
 				&.is-active
-					color: #dd8405
+					color: $orange
 				.notif
 					position: absolute
 					top: -7px
@@ -134,7 +142,7 @@ body
 
 .footer
 	height: 168px
-	border-top: 5px solid #d17e08
+	border-top: 5px solid $orange
 	text-align: center
 	span
 		font-size: 14px
