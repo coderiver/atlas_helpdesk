@@ -1,0 +1,106 @@
+// styles for intro
+.intro__text
+    padding-top: 30px
+    margin-bottom: 85px
+    color: #eee
+    font-size: 16px
+    p
+        margin-bottom: 10px
+.intro__img
+    text-align: center
+    margin-bottom: 95px
+.wrpapper_grey
+    position: relative
+    background: url(../img/ptrn-grey.png)
+    &:before
+        content: ""
+        position: absolute
+        top: 0
+        left: 0
+        bottom: 0
+        right: 0
+        +background-image(radial-gradient(center center, 100% 100%, #fff 0%, #a9a9a9 50%, #a9a9a9 100%))
+        +opacity(.5)
+        z-index: 0
+    .container
+        position: relative
+        padding-top: 50px 
+        z-index: 1
+.video
+    position: relative
+    width: 623px
+    height: 414px
+    margin: 65px auto 0
+    background: url(../img/tv.png) 0 0 no-repeat
+.video__container
+    position: absolute
+    top: 9px
+    left: 12px
+    width: 597px 
+    height: 338px
+    overflow: hidden
+.video__darkmask
+    position: absolute
+    top: 0
+    bottom: 0
+    left: 0
+    right: 0
+    background: rgba(0,0,0,.4)
+    z-index: 1
+.video__lightmask
+    position: absolute
+    top: 0
+    bottom: 0
+    right: 0
+    width: 262px
+    background: rgba(255,255,255,.4)
+    z-index: 2
+    &:before
+        content: ""
+        position: absolute
+        top: 0
+        left: -22px
+        +arr(22, 338, rgba(255,255,255,.4), br)     
+.video__play
+    position: absolute
+    top: 50%
+    left: 50%
+    margin: -44px 0 0 -44px
+    width: 88px
+    height: 88px
+    +border-radius(50%)
+    background: $orange
+    cursor: pointer
+    z-index: 9
+    &:before
+        content: ""
+        position: absolute
+        top: 23px
+        left: 33px
+        +s(play)
+.theses 
+    padding: 70px 0 48px
+.theses__item
+    margin-bottom: 48px
+    .h2
+        margin-bottom: 30px
+.theses__list
+    font-size: 18px
+    color: #404040
+    li
+        position: relative
+        padding-left: 20px
+        margin-bottom: 3px
+        &:before
+            content: ""
+            position: absolute
+            top: 9px
+            left: 0px
+            width: 8px
+            height: 8px
+            +border-radius(50%)
+            background: #e78a06           
+                                  
+        
+
+          
