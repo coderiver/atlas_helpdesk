@@ -145,7 +145,7 @@ body { min-width: 1000px; font-size: 12px; font-family: Tahoma, Arial, sans-seri
 .tools { *zoom: 1; margin-bottom: 30px; }
 .tools:after { content: " "; display: table; clear: both; }
 .tools .search, .tools .select, .tools .checkbox { margin-left: 45px; float: left; }
-.tools .checkbox { border: 1px solid #222222; }
+.tools .checkbox { margin-top: 4px; border: 1px solid #222222; }
 
 .search { font-size: 0; }
 .search input, .search button { display: inline-block; vertical-align: middle; }
@@ -162,7 +162,7 @@ body { min-width: 1000px; font-size: 12px; font-family: Tahoma, Arial, sans-seri
 .select__list li { padding: 5px 11px; cursor: pointer; line-height: 1; }
 .select__list li:hover { background: #717791; color: white; }
 
-.checkbox__label { float: left; white-space: nowrap; font-size: 12px; color: #eeeeee; padding-left: 18px; padding-top: 3px; }
+.checkbox__label { float: left; white-space: nowrap; font-size: 12px; color: #eeeeee; padding-left: 18px; padding-top: 6px; }
 
 .checkbox { width: 20px; height: 20px; border-radius: 2px; display: inline-block; border: 1px solid #cccccc; cursor: pointer; background: #e4e4e4; position: relative; overflow: hidden; }
 .checkbox.checkbox_thead { border-color: #d09b52; }
