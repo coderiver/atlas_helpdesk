@@ -234,7 +234,20 @@
             &:first-child
                 margin-left: 0
             &.is-active
-                +s(star-orange)                                     
+                +s(star-orange)
+.rating_small
+    position: relative
+    top: 0
+    right: auto
+    width: 74px
+    padding: 0 8px
+    ul
+        li
+            margin-left: 2px 
+            +s(star-small)
+            &.is-active
+                +s(star-small-orange)
+
         
 
 
