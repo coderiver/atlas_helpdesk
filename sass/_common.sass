@@ -192,7 +192,7 @@ body
 	+border-radius(2px)
 	background: #fff
 	border: 1px solid #cacaca
-	+box-shadow(inset 0 0px 4px rgba(0,0,0,.27))
+	+box-shadow(inset 0px 1px 2px 0px rgba(0, 0, 0, 0.27))
 .textarea
 	padding: 10px
 	resize: none 	
@@ -200,13 +200,13 @@ body
 	position: absolute
 	top: 400px
 	right: -461px
-	+box-shadow(-2px 2px 2px 0px #B4B4B4)
+	+box-shadow(-2px 2px 2px 0px #535353)
 	+transition(all 200ms linear)
 	z-index: 99
 	&.is-open
 		right: 0
 		.help__btn
-			+box-shadow(-2px -2px 4px 0px #4E4D4D)
+			+box-shadow(-2px -2px 4px 0px #535353)
 			&:before
 				+s(help-close)	
 .help__btn
@@ -266,6 +266,7 @@ body
 .help__row
 	+clr
 	margin-bottom: 8px
+	color: #404040
 .help__left
 	float: left
 	width: 87px
@@ -323,7 +324,7 @@ body
 	line-height: 30px
 	padding: 0 20px
 	+border-radius(2px)
-	background: #d17d07
+	background: #e78a09
 	+text-shadow(1px 0 1px #be5d03)
 	color: #fff
 	font-weight: bold   		  
