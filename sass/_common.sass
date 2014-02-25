@@ -192,7 +192,7 @@ body
 	+border-radius(2px)
 	background: #fff
 	border: 1px solid #cacaca
-	+box-shadow(inset 0px 1px 2px 0px rgba(0, 0, 0, 0.27))
+	+box-shadow(inset 0px 1px 2px 0px rgba(0, 0, 0, 0.15))
 .textarea
 	padding: 10px
 	resize: none 	
@@ -200,13 +200,13 @@ body
 	position: absolute
 	top: 400px
 	right: -461px
-	+box-shadow(-2px 2px 2px 0px #535353)
+	+box-shadow(-2px 2px 5px 0px #3D3D3D)
 	+transition(all 200ms linear)
 	z-index: 99
 	&.is-open
 		right: 0
 		.help__btn
-			+box-shadow(-2px -2px 4px 0px #535353)
+			+box-shadow(-1px -2px 6px 0px #3D3D3D)
 			&:before
 				+s(help-close)	
 .help__btn
