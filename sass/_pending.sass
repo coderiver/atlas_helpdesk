@@ -176,10 +176,6 @@
 		text-decoration: none
 		font-size: 14px
 		+text-shadow(0 1px 0 #595959)
-		// &:hover
-		// 	background: #d97f00
-		// 	background: #e78700
-		// 	+text-shadow(0 1px 0 #b36900)
 		&.is-active
 			background: #d97f00
 			background: #e78700
@@ -188,9 +184,9 @@
 	+clr
 	height: 40px
 	line-height: 40px 
-	p
+	span
 		float: left
-	p.notif
+	span.notif
 		float: right
 		margin-top: 6px	
 .table
@@ -226,12 +222,17 @@
 		height: 40px
 		vertical-align: middle
 		border-left: 1px solid #d2d2d2
+		a
+			display: block
+			text-decoration: none
+			color: #404040
+			font-size: 13px
 		&:first-child
 			border-left: none
 			text-align: center
 			width: 48px
 			padding: 0  
-		p.notif
+		span.notif
 			margin-top: 10px 	
 	tbody
 		font-size: 13px
