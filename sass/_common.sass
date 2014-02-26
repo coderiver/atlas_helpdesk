@@ -150,7 +150,7 @@ body
 				&:hover
 					color: $orange
 				&.is-active
-					color: $orange
+					color: #e78a06
 				.notif
 					position: absolute
 					top: -7px
@@ -393,7 +393,48 @@ body
 	height: 28px
 	line-height: 28px
 	font-size: 12px
-	color: #eee  					 
+	color: #eee
+	
+// chat-popup
+.popup
+	position: absolute
+	top: 140px
+	left: 50%
+	margin-left: -344px
+	width: 688px
+	+border-radius(3px)
+	background: #f4f4f4
+	+box-shadow(0 3px 10px rgba(0,0,0,.5))
+.popup__header
+	height: 32px
+	background: #6c6c6c
+	+border-radius(3px 3px 0 0)
+.popup__content
+	border: 1px solid #c7c7c7
+	border-top: none
+	padding: 24px 11px 11px
+	+border-radius(0 0 3px 3px)
+.popup__topper
+	+clr	  
+.popup__title 
+	float: left
+	color: #505050
+	font-size: 16px
+	font-weight: bold
+.popup__btns
+	float: right
+a.back_text
+	width: auto
+	padding: 0 14px
+	font-size: 12px
+	color: #fff
+	font-weight: bold
+	line-height: 30px
+	+text-shadow(0px 1px 1px #909090)
+	text-decoration: none 
+	&:before
+		display: none
+
 
 
 

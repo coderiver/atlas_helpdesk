@@ -113,6 +113,7 @@
     font-weight: bold
     +font-smoothing
     +text-shadow(0 1px 0 rgba(209,125,7,.5))
+    cursor: pointer
     span, i
         display: inline-block
         vertical-align: middle
@@ -140,7 +141,7 @@
     background: #d6d6d6
     .btn
         float: left
-.chatting__back, .chatting__ok
+.back, .ok
     position: relative
     float: left
     width: 44px
@@ -163,12 +164,15 @@
     font-size: 14px
     font-weight: bold
     +text-shadow(0 1px 0 rgba(255,255,255,.75))
-.chatting__ok
+.ok
     float: right
     margin-right: 0 
     &:before
         left: 16px
         +s(ok)
+.ok_orange
+    background: #e78a07
+    border: 1px solid #e78a07         
 .chatting__message
     padding: 0 22px
     margin-bottom: 20px
