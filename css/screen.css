@@ -164,7 +164,7 @@ body { min-width: 1000px; font-size: 12px; font-family: Tahoma, Arial, sans-seri
 
 .checkbox__label { float: left; white-space: nowrap; font-size: 12px; color: #eeeeee; padding-left: 18px; padding-top: 6px; }
 
-.checkbox { width: 20px; height: 20px; border-radius: 2px; display: inline-block; border: 1px solid #cccccc; cursor: pointer; background: #e4e4e4; position: relative; overflow: hidden; }
+.checkbox { width: 20px; height: 20px; border-radius: 4px; display: inline-block; border: 1px solid #cccccc; cursor: pointer; background: white; position: relative; overflow: hidden; }
 .checkbox.checkbox_thead { border-color: #d09b52; }
 .checkbox label { display: block; width: 20px; height: 20px; cursor: pointer; }
 .checkbox input { display: none; }
