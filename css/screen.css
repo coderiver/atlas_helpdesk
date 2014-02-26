@@ -78,7 +78,7 @@ body { min-width: 1000px; font-size: 12px; font-family: Tahoma, Arial, sans-seri
 .clr { *zoom: 1; }
 .clr:after { content: " "; display: table; clear: both; }
 
-.input, .textarea { padding: 0 10px; -webkit-border-radius: 2px; -moz-border-radius: 2px; -ms-border-radius: 2px; -o-border-radius: 2px; border-radius: 2px; background: white; border: 1px solid #cacaca; -webkit-box-shadow: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.15); -moz-box-shadow: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.15); box-shadow: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.15); }
+.input, .textarea { padding: 0 10px; -webkit-border-radius: 2px; -moz-border-radius: 2px; -ms-border-radius: 2px; -o-border-radius: 2px; border-radius: 2px; background: white; font-size: 17px; border: 1px solid #cacaca; -webkit-box-shadow: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.15); -moz-box-shadow: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.15); box-shadow: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.15); }
 
 .textarea { padding: 10px; resize: none; }
 
