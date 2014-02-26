@@ -191,12 +191,12 @@ body { min-width: 1000px; font-size: 12px; font-family: Tahoma, Arial, sans-seri
 .table { width: 100%; }
 .table thead { height: 48px; background: #f2bf78; color: #ac6e16; padding: 0 3px; }
 .table th { height: 48px; border-left: 1px solid #d09b52; vertical-align: middle; }
-.table th:first-child { border-left: none; }
+.table th:first-child { border-left: none; width: 48px; }
 .table th p { position: relative; display: inline-block; padding-right: 8px; padding-left: 5px; cursor: pointer; }
 .table th p i { vertical-align: middle; display: inline-block; margin-left: 6px; background: url('../img/icons-s2f30bbad6f.png') 0 -605px no-repeat; width: 8px; height: 8px; }
 .table th p i.is-up { background: url('../img/icons-s2f30bbad6f.png') 0 -505px no-repeat; width: 8px; height: 8px; position: relative; top: -2px; }
 .table td { height: 40px; vertical-align: middle; border-left: 1px solid #d2d2d2; }
-.table td:first-child { border-left: none; text-align: center; }
+.table td:first-child { border-left: none; text-align: center; width: 48px; padding: 0; }
 .table td p.notif { margin-top: 10px; }
 .table tbody { font-size: 13px; color: #404040; }
 .table tbody tr.white { background: #f7f7f7; }

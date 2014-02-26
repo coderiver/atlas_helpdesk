@@ -47,6 +47,20 @@ $(document).ready(function() {
     	$(this).find('i').toggleClass('is-up');
     });
 
+    // toggle FAQ
+
+    $(".js-answer").hide();
+    $(".js-question").each(function(){
+        $(this).on('click', function(){
+            $(".js-answer").show();
+            $("html, body").animate({
+              scrollTop: $(".js-divide").offset().top
+            }, 500);
+            return false;
+        });
+    });
+
+
     $(document).click(function() {
         $(".js-select-list").hide();
         $(".js-select").removeClass("is-active");
