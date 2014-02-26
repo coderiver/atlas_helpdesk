@@ -70,6 +70,14 @@ $(document).ready(function() {
         $(".js-chat-form").slideUp('fast');
     });
 
+    // techinfo toggle
+
+    $(".js-techinfo-btn").on('click', function(){
+        $(this).toggleClass('is-open');
+        $(this).parents(".messages__topper").find(".js-techinfo").toggle();
+    });
+
+
 
     $(document).click(function() {
         $(".js-select-list").hide();

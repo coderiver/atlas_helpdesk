@@ -196,13 +196,38 @@
         position: relative
         color: #e78a06
         font-weight: bold
-        cursor: pointer
-        &:before
-            content: ""
+        +nosel
+        i
             position: absolute
             top: 4px
             right: -14px
             +s(arr-down-orange-light)
+            cursor: pointer
+            &.is-open
+                +s(arr-up-orange-light) 
+.techinfo
+    display: none
+    position: relative
+    float: left
+    height: 17px
+    margin-left: 90px
+    padding-left: 20px
+    color: #717171
+    font-size: 13px
+.techinfo_phone
+    &:before
+        content: ""
+        position: absolute
+        top: 0
+        left: 0
+        +s(phone)
+.techinfo_tv
+    &:before
+        content: ""
+        position: absolute
+        top: 2px
+        left: -6px
+        +s(tv)            
 .messages__info
     position: relative
     float: right        
