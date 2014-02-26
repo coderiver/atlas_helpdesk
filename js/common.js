@@ -60,6 +60,16 @@ $(document).ready(function() {
         });
     });
 
+    //toggle answer form
+
+    $(".js-chat-form").hide();
+    $(".js-show-chat").on('click', function(){
+        $(".js-chat-form").slideDown('fast');
+    });
+    $(".js-hide-chat").on('click', function(){
+        $(".js-chat-form").slideUp('fast');
+    });
+
 
     $(document).click(function() {
         $(".js-select-list").hide();
