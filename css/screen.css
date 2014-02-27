@@ -66,7 +66,7 @@ body { min-width: 1000px; font-size: 12px; font-family: Tahoma, Arial, sans-seri
 .menu ul li a.is-active { color: #e78a06; }
 .menu ul li a .notif { position: absolute; top: -7px; left: 100%; }
 
-.notif { height: 18px; line-height: 17px; text-align: center; padding: 0 8px; -webkit-border-radius: 9px; -moz-border-radius: 9px; -ms-border-radius: 9px; -o-border-radius: 9px; border-radius: 9px; background: #d97f00; background: #e78700; color: white; font-size: 12px; text-shadow: 0 1px 0 #c96203; }
+.notif { height: 18px; line-height: 17px; text-align: center; padding: 0 8px; -webkit-border-radius: 9px; -moz-border-radius: 9px; -ms-border-radius: 9px; -o-border-radius: 9px; border-radius: 9px; background: #e78700; font-weight: bold; color: white; font-size: 12px; text-shadow: 0 1px 0 #c96203; }
 
 .footer { position: relative; height: 173px; text-align: center; }
 .footer span { font-size: 14px; color: white; font-weight: bold; line-height: 168px; -webkit-font-smoothing: antialiased; -moz-font-smoothing: antialiased; -ms-font-smoothing: antialiased; -o-font-smoothing: antialiased; }
