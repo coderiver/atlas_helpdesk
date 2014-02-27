@@ -77,6 +77,13 @@ $(document).ready(function() {
         $(this).parents(".messages__topper").find(".js-techinfo").toggle();
     });
 
+    // toggle chat
+
+    $(".js-popup").hide();
+    $(".js-popup-btn").on('click', function(){
+        $(".js-popup").toggle();
+    });
+
 
 
     $(document).click(function() {
