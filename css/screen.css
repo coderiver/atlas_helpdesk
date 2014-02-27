@@ -266,7 +266,7 @@ a.back_text:before { display: none; }
 .notif-wrap span { float: left; }
 .notif-wrap span.notif { float: right; margin-top: 6px; }
 
-.table { width: 100%; }
+.table { width: 100%; background: #ebebeb; }
 .table thead { height: 48px; background: #f2bf78; color: #ac6e16; padding: 0 3px; }
 .table th { height: 48px; border-left: 1px solid #d09b52; vertical-align: middle; }
 .table th:first-child { border-left: none; width: 48px; }

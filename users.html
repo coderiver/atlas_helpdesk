@@ -1,0 +1,205 @@
+<!doctype html>
+<!--[if lte IE 8]><html class="lteie8"><![endif]-->
+<!--[if gt IE 8]><!--><html><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<title>users</title>
+	<meta name="viewport" content="initial-scale=1"/>
+	<link rel="stylesheet" media="screen" href="css/screen.css" >
+	<!--[if IE]><script src="js/html5shiv.js"></script><![endif]-->
+	<script src="js/jquery.js"></script>
+	<script src="js/common.js"></script>
+</head>
+<body>
+
+<!-- BEGIN  out-->
+<div class="out">
+	<header class="header">
+		<div class="container header__inner">
+			<h1 class="logo">
+				<a href="#">Atlas</a>
+			</h1>
+			<div class="profile">
+				<a href="#">Jamesbond</a>
+			</div>
+			<nav class="menu">
+				<ul>
+					<li><a href="intro.html"><span>О проекте</span></a></li>
+					<li><a href="FAQs.html"><span>FAQ’s</span></a></li>
+					<li><a href="new.html" class="is-active"><span>Техподдержка</span><span class="notif">1</span></a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<div class="container">
+		<div class="main">
+			<div class="tools">
+				<div class="fl">
+					<button class="btn">Новый запрос</button>
+				</div>
+				<div class="fr clr">
+					<div class="select js-select">
+					    <span class="select__text js-select-text">Выбрать</span>
+					    <input type="hidden" class="js-select-input" value="0">
+					    <ul class="select__list js-select-list">
+					        <li data-id="0">Выбрать</li>
+					        <li data-id="1">var1</li>
+					        <li data-id="2">var2</li>
+					        <li data-id="3">var3</li>
+					    </ul>
+					</div>
+					<div class="search">
+						<form>
+							<input class="input" type="text">
+							<button type="submit"></button>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="box clr">
+				<div class="box__left">
+					<ul class="box__menu">
+						<li>
+							<a class="notif-wrap is-active" href="pending.html"><span>В процессе</span><span class="notif">1</span></a>
+						</li>
+						<li>
+							<a class="notif-wrap" href="closed.html"><span>Закрытые</span></a>
+						</li>
+						<li>
+							<a class="notif-wrap" href="deleted.html"><span>Корзина</span></a>
+						</li>
+					</ul>
+				</div>
+				<div class="box__right">
+					<table class="table table_new">
+						<thead>
+							<tr>
+								<th>
+									<div class="checkbox checkbox_thead">
+										<label>
+											<input type="checkbox">
+											<i></i>
+										</label>
+									</div>
+								</th>
+								<th><p>Тема<i></i></p></th>
+								<th><p>Тип<i></i></p></th>
+								<th><p>Менеджер<i></i></p></th>
+								<th><p>Время<i></i></p></th>
+								<th><p>Дата<i></i></p></th>
+								<th><p>#<i></i></p></th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr class="white">
+								<td>
+									<div class="checkbox checkbox_tbody">
+										<label>
+											<input type="checkbox">
+											<i></i>
+										</label>
+									</div>
+								</td>
+								<td><a href="opened_ticket+reply.html" class="notif-wrap"><span>Начисление на карту</span><span class="notif">5</span></a></td>
+								<td><p class="center"><i class="icon-letter"></i></p></td>
+								<td><p>Angelina Jolie</p></td>
+								<td><p>10:45</p></td>
+								<td><p>17 фев 2014</p></td>
+								<td><p>15</p></td>
+							</tr>
+							<tr>
+								<td>
+									<div class="checkbox checkbox_tbody">
+										<label>
+											<input type="checkbox">
+											<i></i>
+										</label>
+									</div>
+								</td>
+								<td><a href="opened_ticket+reply.html" class="notif-wrap"><span>Добавление друзей</span></a></td>
+								<td><p class="center"><i class="icon-letter"></i></p></td>
+								<td><p>Angelina Jolie</p></td>
+								<td><p>10:45</p></td>
+								<td><p>17 фев 2014</p></td>
+								<td><p>15</p></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<nav class="pagination">
+				<div class="pagination__nav">
+					<a class="pagination__prev" href="#"></a>
+					<a class="pagination__next" href="#"></a>
+				</div>
+				<div class="select js-select">
+					<span class="select__text js-select-text">1</span>
+					<input type="hidden" class="js-select-input" value="0">
+					<ul class="select__list js-select-list">
+					    <li data-id="0">1</li>
+					    <li data-id="1">2</li>
+					    <li data-id="2">3</li>
+					    <li data-id="3">10</li>
+					    <li data-id="3">11</li>
+					    <li data-id="3">12</li>
+					</ul>
+				</div>
+				<div class="pagination__pager">1 – 5 (из 5)</div>
+			</nav>
+		</div>	
+	</div>
+	<div class="divide"></div>
+	<div class="help">
+		<div class="help__btn">Помощь</div>
+		<div class="help__content">
+			<div class="help__title">Задать вопрос или связаться по чату</div>
+			<div class="help__form">
+				<form>
+					<div class="help__row">
+						<div class="help__left">Тема:</div>
+						<div class="help__right">
+							<div class="select js-select">
+								<span class="select__text js-select-text"></span>
+					    		<input type="hidden" class="js-select-input" value="0">
+					    		<ul class="select__list js-select-list">
+					        		<li data-id="0">Выбрать</li>
+					        		<li data-id="1">var1</li>
+					        		<li data-id="2">var2</li>
+					        		<li data-id="3">var3</li>
+					    		</ul>
+							</div>
+						</div>
+					</div>
+					<div class="help__row">
+						<div class="help__left">Email:</div>
+						<div class="help__right">
+							<input class="input" type="text">
+						</div>
+					</div>	
+					<div class="help__row">
+						<div class="help__left">Сообщение:</div>
+						<div class="help__right">
+							<textarea class="textarea"></textarea>
+						</div>
+					</div>
+					<div class="help__row">
+						<div class="help__left"></div>
+						<div class="help__right">
+							<div class="help__bot">
+								<a class="help__chat" href="#">Чат</a>
+								<button class="help__submit" type="submit">Отправить</button>
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>	
+		</div>
+	</div>
+	<div class="push"></div>
+</div>
+<!-- END out-->
+<footer class="footer">
+	<span>© 2014 ATLAS</span>
+</footer>
+</body>
+</html>
