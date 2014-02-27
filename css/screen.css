@@ -177,7 +177,7 @@ a.back_text:before { display: none; }
 .add-user__tools li.add-user__mobile { padding-left: 18px; }
 .add-user__tools li.add-user__mobile:before { content: ""; position: absolute; top: 0px; left: 0px; background: url('../img/icons-s812e74733b.png') 0 -530px no-repeat; width: 9px; height: 19px; }
 
-.chat-window-wrap { padding: 16px; margin-top: 15px; margin-bottom: 16px; border: 1px solid #c7c7c7; -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; background: white; }
+.chat-window-wrap { height: 228px; padding: 16px; margin-top: 15px; margin-bottom: 16px; border: 1px solid #c7c7c7; -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; background: white; overflow: auto; }
 
 .chat-window__item { color: #202020; font-size: 13px; margin-top: 15px; }
 .chat-window__item:first-child { margin-top: 0; }
