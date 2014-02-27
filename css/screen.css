@@ -137,11 +137,9 @@ body { min-width: 1000px; font-size: 12px; font-family: Tahoma, Arial, sans-seri
 
 .pagination__pager { float: right; height: 28px; line-height: 28px; font-size: 12px; color: #eeeeee; }
 
-.popup { position: absolute; top: 140px; left: 50%; margin-left: -344px; width: 688px; -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; background: #f4f4f4; -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5); -moz-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5); box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5); }
+.popup { position: absolute; top: 213px; left: 50%; margin-left: -344px; width: 688px; -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; background: #f4f4f4; -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5); -moz-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5); box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5); }
 
-.popup__header { height: 32px; background: #6c6c6c; -webkit-border-radius: 3px 3px 0 0; -moz-border-radius: 3px 3px 0 0; -ms-border-radius: 3px 3px 0 0; -o-border-radius: 3px 3px 0 0; border-radius: 3px 3px 0 0; }
-
-.popup__content { border: 1px solid #c7c7c7; border-top: none; padding: 24px 11px 11px; -webkit-border-radius: 0 0 3px 3px; -moz-border-radius: 0 0 3px 3px; -ms-border-radius: 0 0 3px 3px; -o-border-radius: 0 0 3px 3px; border-radius: 0 0 3px 3px; }
+.popup__content { border: 1px solid #c7c7c7; border-top: none; padding: 24px 11px 11px; -webkit-border-radius: 3px 3px; -moz-border-radius: 3px 3px; -ms-border-radius: 3px 3px; -o-border-radius: 3px 3px; border-radius: 3px 3px; }
 
 .popup__topper { *zoom: 1; padding-left: 10px; }
 .popup__topper:after { content: " "; display: table; clear: both; }
@@ -155,7 +153,7 @@ a.back_text:before { display: none; }
 
 .popup__expand { padding-left: 10px; }
 
-.add-user__name { position: relative; display: inline-block; vertical-align: middle; margin-right: 100px; padding: 0 18px 0 25px; color: #505050; font-size: 14px; cursor: pointer; }
+.add-user__name { position: relative; display: inline-block; vertical-align: middle; margin-right: 100px; padding: 0 18px 0 25px; color: #505050; font-size: 14px; cursor: pointer; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
 .add-user__name:before { content: ""; position: absolute; top: 2px; left: 1px; background: url('../img/icons-s812e74733b.png') 0 -635px no-repeat; width: 14px; height: 14px; }
 .add-user__name:after { content: ""; position: absolute; top: 6px; right: 0px; background: url('../img/icons-s812e74733b.png') 0 -841px no-repeat; width: 8px; height: 8px; }
 .add-user__name.is-open:after { background: url('../img/icons-s812e74733b.png') 0 -877px no-repeat; width: 8px; height: 8px; }
@@ -163,7 +161,7 @@ a.back_text:before { display: none; }
 .add-user__time { position: relative; display: inline-block; vertical-align: middle; padding-left: 20px; color: #505050; font-size: 14px; }
 .add-user__time:before { content: ""; position: absolute; top: 2px; left: 0px; background: url('../img/icons-s812e74733b.png') 0 -171px no-repeat; width: 14px; height: 15px; }
 
-.add-user__tools { margin-left: -10px; padding: 15px; border-top: 1px solid #c8c8c8; }
+.add-user__tools { margin-top: 15px; margin-left: -10px; padding: 15px 15px 0; border-top: 1px solid #c8c8c8; }
 .add-user__tools ul { *zoom: 1; margin-top: 20px; }
 .add-user__tools ul:after { content: " "; display: table; clear: both; }
 .add-user__tools ul:first-child { margin-top: 0; }
@@ -179,7 +177,7 @@ a.back_text:before { display: none; }
 .add-user__tools li.add-user__mobile { padding-left: 18px; }
 .add-user__tools li.add-user__mobile:before { content: ""; position: absolute; top: 0px; left: 0px; background: url('../img/icons-s812e74733b.png') 0 -530px no-repeat; width: 9px; height: 19px; }
 
-.chat-window-wrap { padding: 16px; margin-bottom: 16px; border: 1px solid #c7c7c7; -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; background: white; }
+.chat-window-wrap { padding: 16px; margin-top: 15px; margin-bottom: 16px; border: 1px solid #c7c7c7; -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; background: white; }
 
 .chat-window__item { color: #202020; font-size: 13px; margin-top: 15px; }
 .chat-window__item:first-child { margin-top: 0; }

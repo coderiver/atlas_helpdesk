@@ -84,6 +84,19 @@ $(document).ready(function() {
         $(".js-popup").toggle();
     });
 
+    // toggle user info in popup
+
+    $(".js-user-info").hide();
+    $(".js-user-info-btn").on('click', function(){
+        $(this).toggleClass('is-open');
+        $(".js-user-info").slideToggle('fast');
+    });
+    
+
+
+
+
+
 
 
     $(document).click(function() {

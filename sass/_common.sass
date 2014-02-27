@@ -398,22 +398,18 @@ body
 // chat-popup
 .popup
 	position: absolute
-	top: 140px
+	top: 213px
 	left: 50%
 	margin-left: -344px
 	width: 688px
 	+border-radius(3px)
 	background: #f4f4f4
 	+box-shadow(0 3px 10px rgba(0,0,0,.5))
-.popup__header
-	height: 32px
-	background: #6c6c6c
-	+border-radius(3px 3px 0 0)
 .popup__content
 	border: 1px solid #c7c7c7
 	border-top: none
 	padding: 24px 11px 11px
-	+border-radius(0 0 3px 3px)
+	+border-radius(3px 3px)
 .popup__topper
 	+clr
 	padding-left: 10px	  
@@ -446,6 +442,7 @@ a.back_text
 	color: #505050
 	font-size: 14px 
 	cursor: pointer
+	+nosel
 	&:before
 		content: ""
 		position: absolute
@@ -475,8 +472,9 @@ a.back_text
 		left: 0px
 		+s(clock)
 .add-user__tools
+	margin-top: 15px
 	margin-left: -10px
-	padding: 15px   
+	padding: 15px 15px 0   
 	border-top: 1px solid #c8c8c8
 	ul
 		+clr
@@ -531,6 +529,7 @@ a.back_text
 				+s(mobile)
 .chat-window-wrap
 	padding: 16px
+	margin-top: 15px
 	margin-bottom: 16px 
 	border: 1px solid #c7c7c7
 	+border-radius(3px)
