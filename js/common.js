@@ -106,7 +106,16 @@ $(document).ready(function() {
         $(".js-request").show();
     }); 
 
+    // toggle popup user
 
+    $(".js-popup-user").hide();
+
+    $(".js-popup-user-btn").on('click', function(){
+        $(".js-popup-user").show();
+    });
+    $(".js-popup-user-close").on('click', function(){
+        $(".js-popup-user").hide();
+    });
 
 
 

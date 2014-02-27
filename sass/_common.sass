@@ -618,7 +618,39 @@ a.back_text
 	+box-shadow(0 3px 10px rgba(0,0,0,.5))
 	.help__title
 		font-size: 16px
-		font-weight: bold  			
+		font-weight: bold
+.popup_user
+	.add-user__name
+		cursor: default
+		&.online
+			&:after
+				content: "online"
+				position: absolute
+				top: 2px
+				right: -38px
+				width: 44px
+				height: 18px
+				font-size: 12px
+				color: #fff
+				+border-radius(2px)
+				background: #2cb61a
+				text-align: center
+.popup__rating
+	float: right
+	padding-top: 4px
+	.rating
+		position: relative
+		top: 0
+		width: auto
+		li
+			cursor: pointer
+		span, ul
+			display: inline-block
+			vertical-align: middle
+		ul
+			margin: 0px 20px 0 10px 				    
+							
+
 			
 
 	
