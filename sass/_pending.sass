@@ -9,6 +9,7 @@
 		margin-top: 4px
 		border: 1px solid #222 	
 .search
+	position: relative
 	font-size: 0
 	input, button
 		display: inline-block
@@ -30,6 +31,13 @@
 			left: 50%
 			margin: -8px 0 0 -8px 
 			+s(search)
+	button[type="reset"]
+		position: absolute
+		top: 6px
+		right: 32%
+		+s(reset) 
+		&:before
+			display: none	
 
 // select
 			

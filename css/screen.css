@@ -223,11 +223,13 @@ a.back_text:before { display: none; }
 .tools .search, .tools .select, .tools .checkbox { margin-left: 45px; float: left; }
 .tools .checkbox { margin-top: 4px; border: 1px solid #222222; }
 
-.search { font-size: 0; }
+.search { position: relative; font-size: 0; }
 .search input, .search button { display: inline-block; vertical-align: middle; }
 .search input { width: 154px; height: 30px; }
 .search button { position: relative; height: 32px; width: 64px; margin-left: 10px; -webkit-border-radius: 2px; -moz-border-radius: 2px; -ms-border-radius: 2px; -o-border-radius: 2px; border-radius: 2px; background: #d17d07; }
 .search button:before { content: ""; position: absolute; top: 50%; left: 50%; margin: -8px 0 0 -8px; background: url('../img/icons-s40c8448531.png') 0 -225px no-repeat; width: 16px; height: 17px; }
+.search button[type="reset"] { position: absolute; top: 6px; right: 32%; background: url('../img/icons-s40c8448531.png') 0 -398px no-repeat; width: 18px; height: 18px; }
+.search button[type="reset"]:before { display: none; }
 
 .select { position: relative; width: 103px; height: 30px; -webkit-border-radius: 2px; -moz-border-radius: 2px; -ms-border-radius: 2px; -o-border-radius: 2px; border-radius: 2px; background: #6c6c6c; cursor: pointer; }
 
@@ -294,7 +296,7 @@ a.back_text:before { display: none; }
 .faq-wrap { padding: 20px 120px 100px; }
 .faq-wrap .h2 { margin-bottom: 60px; }
 
-.search_faq { position: relative; margin-bottom: 75px; }
+.search_faq { margin-bottom: 75px; }
 .search_faq input { width: 415px; }
 .search_faq input:-ms-input-placeholder { font-size: 16px; }
 .search_faq input:-moz-placeholder { font-size: 16px; }
@@ -302,8 +304,7 @@ a.back_text:before { display: none; }
 .search_faq input::-webkit-input-placeholder { font-size: 16px; }
 .search_faq input::placeholder { font-size: 16px; }
 .search_faq button[type="submit"] { width: 75px; }
-.search_faq button[type="reset"] { position: absolute; top: 6px; right: 43.5%; background: url('../img/icons-s40c8448531.png') 0 -398px no-repeat; width: 18px; height: 18px; }
-.search_faq button[type="reset"]:before { display: none; }
+.search_faq button[type="reset"] { right: 43.5%; background: url('../img/icons-s40c8448531.png') 0 -398px no-repeat; width: 18px; height: 18px; }
 
 .faq { *zoom: 1; }
 .faq:after { content: " "; display: table; clear: both; }
