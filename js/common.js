@@ -98,6 +98,13 @@ $(document).ready(function() {
         $(".js-popup-mass").toggle();
     });
 
+    // toggle request popup
+
+    $(".js-request").hide();
+
+    $(".js-request-btn").on('click', function(){
+        $(".js-request").show();
+    }); 
 
 
 

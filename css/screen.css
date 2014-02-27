@@ -213,6 +213,9 @@ a.back_text:before { display: none; }
 .add-user__bottom a { display: inline-block; float: none; }
 .add-user__bottom .btn { height: 30px; line-height: 30px; }
 
+.request-popup { position: absolute; top: 235px; left: 50%; margin-left: -230px; width: 460px; -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; background: #f4f4f4; -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5); -moz-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5); box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5); }
+.request-popup .help__title { font-size: 16px; font-weight: bold; }
+
 .l { *zoom: 1; }
 .l:after { content: " "; display: table; clear: both; }
 .l .l-col1 { float: left; width: 20%; }
