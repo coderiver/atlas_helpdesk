@@ -566,7 +566,47 @@ a.back_text
 	height: 90px
 	resize: none
 	font-family: Tahoma, Arial, sans-serif
-	font-size: 13px  
+	font-size: 13px
+.add-user_mass
+	.add-user__name
+		cursor: default
+		&:after
+			display: none	
+.add-user__list
+	margin: 7px 0 10px
+	font-size: 0
+	li
+		display: inline-block
+		vertical-align: middle
+		font-size: 14px
+		.add-user__name
+			margin-right: 0
+			cursor: default
+			&:before
+				display: none
+		&:first-child
+			.add-user__name
+				&:before
+					display: block					
+.add-user__remove
+	position: absolute
+	top: 1px
+	right: -7px
+	+s(reset)
+	cursor: pointer
+.add-user__bottom 
+	+clr
+	.popup__btns
+		text-align: right
+	margin: 25px 0
+	a
+		display: inline-block
+		float: none
+	.btn
+		height: 30px 
+		line-height: 30px	
+			
+
 	
 	
 		

@@ -92,7 +92,11 @@ $(document).ready(function() {
         $(".js-user-info").slideToggle('fast');
     });
     
+    // toggle mass message
 
+    $(".js-popup-mass-close").on('click', function(){
+        $(".js-popup-mass").toggle();
+    });
 
 
 
