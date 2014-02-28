@@ -405,6 +405,9 @@ a.back_text:before { display: none; }
 .back, .ok { position: relative; float: left; width: 44px; margin-right: 17px; height: 30px; border: 1px solid #aaaaaa; -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; background: #b2b2b2; }
 .back:before, .ok:before { content: ""; position: absolute; top: 8px; left: 11px; background: url('../img/icons-sb8addf03bd.png') 0 -454px no-repeat; width: 21px; height: 13px; }
 
+.chatting__top .back { background: url(../img/back_btn.png) 0 0 no-repeat; border: none; }
+.chatting__top .back:before { display: none; }
+
 .chatting__title { float: left; line-height: 32px; margin-left: 150px; color: #717171; font-size: 14px; font-weight: bold; text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75); }
 
 .ok { float: right; margin-right: 0; }
