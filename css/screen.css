@@ -252,7 +252,7 @@ a.back_text:before { display: none; }
 .select__list li { padding: 5px 11px; cursor: pointer; line-height: 1; }
 .select__list li:hover { background: #717791; color: white; }
 
-.checkbox__label { float: left; white-space: nowrap; font-size: 12px; color: #eeeeee; padding-left: 18px; padding-top: 6px; }
+.checkbox__label { float: left; white-space: nowrap; font-size: 12px; color: #eeeeee; padding-left: 8px; padding-top: 6px; }
 
 .checkbox { width: 20px; height: 20px; border-radius: 4px; display: inline-block; border: 1px solid #cccccc; cursor: pointer; background: white; position: relative; overflow: hidden; }
 .checkbox.checkbox_thead { border-color: #d09b52; }
@@ -397,14 +397,15 @@ a.back_text:before { display: none; }
 .chatting__message textarea { display: block; width: 666px; max-width: 666px; height: 82px; padding: 10px; margin-bottom: 25px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; background: transparent; border: 1px solid #b6b6b6; font-family: Tahoma, Arial, sans-serif; -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; }
 
 .messages { margin-bottom: 7px; }
+.messages .add-user__tools { margin: -1px 0 0; border: none; padding: 15px; background: #e2e2e2; }
 
 .messages__topper { padding: 30px 20px 4px; *zoom: 1; border-bottom: 1px solid #d8d8d8; }
 .messages__topper:after { content: " "; display: table; clear: both; }
 
-.messages__username { float: left; }
+.messages__username { float: left; cursor: pointer; }
 .messages__username span { position: relative; color: #e78a06; font-weight: bold; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
-.messages__username span i { position: absolute; top: 4px; right: -14px; background: url('../img/icons-s40c8448531.png') 0 -869px no-repeat; width: 8px; height: 8px; cursor: pointer; }
-.messages__username span i.is-open { background: url('../img/icons-s40c8448531.png') 0 -905px no-repeat; width: 8px; height: 8px; }
+.messages__username span i { position: absolute; top: 4px; right: -14px; background: url('../img/icons-s40c8448531.png') 0 -869px no-repeat; width: 8px; height: 8px; }
+.messages__username.is-open span i { background: url('../img/icons-s40c8448531.png') 0 -905px no-repeat; width: 8px; height: 8px; }
 
 .techinfo { display: none; position: relative; float: left; height: 17px; margin-left: 90px; padding-left: 20px; color: #717171; font-size: 13px; }
 

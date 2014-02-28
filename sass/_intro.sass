@@ -189,13 +189,19 @@
         font-family: Tahoma, Arial, sans-serif
         +border-radius(3px)
 .messages
-    margin-bottom: 7px        
+    margin-bottom: 7px
+    .add-user__tools
+        margin: -1px 0 0
+        border: none
+        padding: 15px 
+        background: #e2e2e2         
 .messages__topper 
     padding: 30px 20px 4px
     +clr
     border-bottom: 1px solid #d8d8d8 
 .messages__username
     float: left
+    cursor: pointer
     span
         position: relative
         color: #e78a06
@@ -206,8 +212,9 @@
             top: 4px
             right: -14px
             +s(arr-down-orange-light)
-            cursor: pointer
-            &.is-open
+    &.is-open
+        span
+            i
                 +s(arr-up-orange-light) 
 .techinfo
     display: none

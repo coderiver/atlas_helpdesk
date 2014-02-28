@@ -71,10 +71,10 @@ $(document).ready(function() {
     });
 
     // techinfo toggle
-
+    $(".js-techinfo").hide();
     $(".js-techinfo-btn").on('click', function(){
         $(this).toggleClass('is-open');
-        $(this).parents(".messages__topper").find(".js-techinfo").toggle();
+        $(".js-techinfo").slideToggle();
     });
 
     // toggle chat
