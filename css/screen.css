@@ -321,6 +321,8 @@ a.back_text:before { display: none; }
 
 .icon-chat-green { display: inline-block; background: url('../img/icons-sb8addf03bd.png') 0 -755px no-repeat; width: 20px; height: 18px; }
 
+.no-message { padding-top: 90px; text-align: center; font-size: 16px; font-weight: bold; color: #404040; }
+
 .faq-wrap { padding: 20px 120px 100px; }
 .faq-wrap .h2 { margin-bottom: 60px; }
 
