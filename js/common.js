@@ -50,14 +50,14 @@ $(document).ready(function() {
     // toggle FAQ
 
     $(".js-answer").hide();
-    $(".js-question").each(function(){
-        $(this).on('click', function(){
-            $(".js-answer").show();
-            $("html, body").animate({
-              scrollTop: $(".js-divide").offset().top
-            }, 500);
-            return false;
-        });
+    $(".js-question").on('click', function(){
+        $(".js-question").removeClass('is-open');
+        $(this).addClass('is-open');
+        $(".js-answer").show();
+        $("html, body").animate({
+          scrollTop: $(".js-divide").offset().top
+        }, 500);
+        return false;
     });
 
     //toggle answer form
