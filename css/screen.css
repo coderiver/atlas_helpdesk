@@ -275,6 +275,7 @@ a.back_text:before { display: none; }
 
 .box__menu a { display: block; height: 30px; padding: 0 22px 0 28px; line-height: 30px; color: white; text-decoration: none; font-size: 14px; text-shadow: 0 1px 0 #595959; }
 .box__menu a.is-active { background: #d97f00; background: #e78700; text-shadow: 0 1px 0 #b36900; }
+.box__menu a.is-active span.notif { color: #d97f00; background: white; text-shadow: none; }
 
 .notif-wrap { *zoom: 1; height: 40px; line-height: 40px; }
 .notif-wrap:after { content: " "; display: table; clear: both; }
@@ -383,7 +384,7 @@ a.back_text:before { display: none; }
 
 .chat__number { height: 18px; line-height: 18px; color: #46b329; text-align: center; padding: 0 9px; background: white; -webkit-border-radius: 9px; -moz-border-radius: 9px; -ms-border-radius: 9px; -o-border-radius: 9px; border-radius: 9px; text-shadow: none; }
 
-.chatting__top { *zoom: 1; padding: 8px 9px; height: 32px; margin-bottom: 22px; border-bottom: 1px solid #c6c6c6; background: #d6d6d6; }
+.chatting__top { *zoom: 1; padding: 8px 9px; height: 32px; margin-bottom: 16px; border-bottom: 1px solid #c6c6c6; background: #d6d6d6; }
 .chatting__top:after { content: " "; display: table; clear: both; }
 .chatting__top .btn { float: left; }
 
@@ -403,11 +404,11 @@ a.back_text:before { display: none; }
 .messages { margin-bottom: 7px; }
 .messages .add-user__tools { margin: -1px 0 0; border: none; padding: 15px; background: #e2e2e2; }
 
-.messages__topper { padding: 30px 20px 4px; *zoom: 1; border-bottom: 1px solid #d8d8d8; }
+.messages__topper { padding: 0px 20px 4px; *zoom: 1; border-bottom: 2px solid #d8d8d8; }
 .messages__topper:after { content: " "; display: table; clear: both; }
 
 .messages__username { float: left; cursor: pointer; }
-.messages__username span { position: relative; color: #e78a06; font-weight: bold; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+.messages__username span { position: relative; color: #e78a06; font-size: 13px; font-weight: bold; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
 .messages__username span i { position: absolute; top: 4px; right: -14px; background: url('../img/icons-s40c8448531.png') 0 -869px no-repeat; width: 8px; height: 8px; }
 .messages__username.is-open span i { background: url('../img/icons-s40c8448531.png') 0 -905px no-repeat; width: 8px; height: 8px; }
 
