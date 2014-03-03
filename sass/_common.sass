@@ -111,7 +111,7 @@ body
 	a
 		display: block
 		+hidetext
-		+s(logo)
+		+s(logo_atlas_web)
 .profile
 	position: relative
 	float: right
@@ -466,8 +466,6 @@ a.back_text
 	text-decoration: none 
 	&:before
 		display: none
-.popup__expand
-	padding-left: 10px 		
 .add-user__name
 	position: relative
 	display: inline-block
@@ -728,7 +726,8 @@ a.back_text
 	.btn
 		width: 100%
 		height: 36px
-		font-size: 16px 
+		font-size: 12px
+		+font-smoothing 
 .login__checkbox
 	+clr
 	margin-top: 10px
