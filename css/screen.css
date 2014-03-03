@@ -168,6 +168,8 @@ a.back_text:before { display: none; }
 .add-user__name:before { content: ""; position: absolute; top: 2px; left: 1px; background: url('../img/icons-s7db6fae7ad.png') 0 -663px no-repeat; width: 14px; height: 14px; }
 .add-user__name:after { content: ""; position: absolute; top: 6px; right: 0px; background: url('../img/icons-s7db6fae7ad.png') 0 -869px no-repeat; width: 8px; height: 8px; }
 .add-user__name.is-open:after { background: url('../img/icons-s7db6fae7ad.png') 0 -905px no-repeat; width: 8px; height: 8px; }
+.add-user__name.is-waiting { cursor: default; margin-right: 10px; }
+.add-user__name.is-waiting:after { display: none; }
 
 .add-user__time { position: relative; display: inline-block; vertical-align: middle; padding-left: 20px; color: #505050; font-size: 14px; }
 .add-user__time:before { content: ""; position: absolute; top: 2px; left: 0px; background: url('../img/icons-s7db6fae7ad.png') 0 -171px no-repeat; width: 14px; height: 15px; }
