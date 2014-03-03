@@ -3,6 +3,7 @@ $(document).ready(function() {
         $(".js-select").each(function(){
             var select_list = $(this).find(".js-select-list");
             var text = select_list.find("li").first().text();
+            select_list.hide();
             $(this).find(".js-select-text").text(text);
             $(this).click(function(event){
                 if ($(this).hasClass("is-active")) {
@@ -25,6 +26,7 @@ $(document).ready(function() {
                 $(this).parent().hide();
                 $(this).parents(".js-select").removeClass("is-active");
                 event.stopPropagation();
+                return false;
             });
         });
     }
@@ -117,12 +119,24 @@ $(document).ready(function() {
         $(".js-popup-user").hide();
     });
 
+    // toggle profile dropdown
 
+    $(".js-profile").hide();
+
+    $(".js-profile-btn").on('click', function(event){
+        $(this).toggleClass('is-open');
+        $(".js-profile").slideToggle('fast');
+        return false;
+    });
+    $('.js-profile').click(function(event){
+        event.stopPropagation();
+    });
 
     $(document).click(function() {
         $(".js-select-list").hide();
         $(".js-select").removeClass("is-active");
         $(".help").removeClass('is-open');
+        $('.js-profile').slideUp('fast');
     });
 
 });

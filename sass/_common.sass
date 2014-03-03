@@ -113,8 +113,9 @@ body
 		+hidetext
 		+s(logo)
 .profile
+	position: relative
 	float: right
-	a
+	& > a
 		position: relative
 		display: inline-block 
 		padding-right: 23px
@@ -128,8 +129,38 @@ body
 			top: 6px
 			right: 7px
 			+s(arr-down)
+		&.is-open
+			&:before
+				+s(arr-up)
 .profile_hidden
-	+opacity(0)			
+	+opacity(0)
+.dropdown
+	position: absolute
+	top: 66px
+	left: 0px
+	width: 103px 
+	+border-radius(2px)
+	background: #6c6c6c
+	padding: 5px 0
+	z-index: 1
+	li
+		a
+			display: block
+			height: 30px
+			line-height: 30px
+			padding: 0 14px
+			text-decoration: none
+			color: #fff
+			+text-shadow(1px 0 1px #595959) 
+			&:hover
+				background: #e78700
+				+text-shadow(1px 0 1px #bf6f00)
+.dropdown_wide
+	width: 183px
+	top: 36px
+.dropdown_pag
+	width: 47px
+	top: 36px 	 				 			
 .menu
 	overflow: hidden
 	text-align: center
@@ -295,8 +326,7 @@ body
 			font-weight: normal
 			&:after
 				+s(arr-down-grey)
-		.select__list
-			border: 1px solid #cacaca			
+						
 	.input
 		width: 100% 
 		height: 30px
@@ -352,7 +382,10 @@ body
 		span
 			padding-left: 9px
 			&:after
-				right: 8px  
+				right: 8px
+	.select__text
+		height: 28px
+		line-height: 28px 			  
 .pagination__nav
 	float: right
 	margin-left: 70px
@@ -662,7 +695,7 @@ a.back_text
 	top: 114px
 	left: 50%
 	margin-left: -153px
-	width: 306px
+	width: 251px
 	padding: 19px 29px 35px 
 	+border-radius(4px)
 	background: #515151
@@ -681,6 +714,7 @@ a.back_text
 		height: 34px			
 		width: 100% 					
 		padding: 0 10px
+		font-size: 13px
 		margin-bottom: 8px 
 		border: 1px solid #424242
 		@include border-radius(3px)
@@ -693,12 +727,27 @@ a.back_text
 .login__checkbox
 	+clr
 	margin-top: 10px
-	margin-bottom: 24px		
+	margin-bottom: 24px	
 	.checkbox
 		float: left
+		border: 1px solid #424242
 	.checkbox__label
 		padding-top: 3px
-		+nosel		
+		+nosel
+
+// popup send request
+.send-request
+	position: absolute
+	top: 290px
+	left: 50%
+	width: 325px
+	margin-left: -167px 
+	padding: 22px  
+	+border-radius(2px)
+	background: #f3f3f3
+	+box-shadow(0 3px 13px rgba(0,0,0,.5))
+	color: #404040
+	font-size: 14px
 
 			
 

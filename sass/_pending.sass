@@ -44,22 +44,22 @@
 .select
 	position: relative
 	width: 103px
-	height: 30px
+	height: 32px
 	+border-radius(2px)
 	background: #6c6c6c   
-	cursor: pointer 
+	cursor: pointer
 .select__text
 	position: relative
 	display: block
-	padding-left: 15px  
-	height: 30px
-	line-height: 30px
+	padding-left: 15px
+	padding-right: 23px  
+	height: 32px
+	line-height: 32px
 	white-space: nowrap
 	overflow: hidden
 	text-overflow: ellipsis
 	color: #f7f7f7
 	font-size: 12px
-	font-weight: bold
 	+font-smoothing
 	+text-shadow(0 1px 0 rgba(108,108,108,.3))
 	&:after
@@ -72,11 +72,11 @@
 .select__list
 	position: absolute
 	display: none
-	left: 0
-	right: 0
+	left: -1px
+	right: -1px
 	top: 100%
 	z-index: 100
-	border: 1px solid #000
+	border: 1px solid #cacaca
 	border-top: 0 
 	background: #fff
 	li
@@ -85,8 +85,7 @@
 		line-height: 1
 		&:hover
 			background: #717791
-			color: #fff
-	
+			color: #fff		
 .checkbox__label
 	float: left
 	white-space: nowrap
