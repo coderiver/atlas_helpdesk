@@ -39,10 +39,30 @@
 .addcard
     padding: 69px 0 130px 119px
 .article
-    font-size: 14px
+    font-size: 16px
     color: #404040
+    margin-bottom: 45px
+    img
+        display: block
+        margin: 0 auto 60px 
     p
         margin-bottom: 20px
+    ul
+        margin-bottom: 65px
+        li
+            position: relative
+            padding-left: 14px
+            margin-bottom: 5px
+            &:before
+                content: ""
+                position: absolute
+                top: 7px
+                left: 0px
+                width: 8px 
+                height: 8px
+                line-height: 8px
+                +border-radius(50%)
+                background: #e78a06      
 .mobile
     position: relative
     padding: 80px 30px
@@ -57,5 +77,5 @@
     margin-bottom: 30px
     padding: 14px
     +border-radius(2px)
-    background: $orange
+    background: #e78a06
     color: #fff          
