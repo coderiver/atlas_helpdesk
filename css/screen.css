@@ -359,7 +359,7 @@ a.back_text:before { display: none; }
 .faq-list li a:hover { color: #d17e08; }
 .faq-list li a.is-open { color: #d17e08; }
 
-.addcard { padding: 69px 0 170px; }
+.addcard { padding: 69px 0 130px 119px; }
 
 .article { font-size: 14px; color: #404040; }
 .article p { margin-bottom: 20px; }
@@ -367,7 +367,7 @@ a.back_text:before { display: none; }
 .mobile { position: relative; padding: 80px 30px; }
 
 .mobile__text { position: absolute; top: 33%; left: 45%; }
-.mobile__text .h3 { margin-bottom: 20px; }
+.mobile__text .h3 { margin-bottom: 20px; color: #e78a06; }
 
 .article__important { margin-bottom: 30px; padding: 14px; -webkit-border-radius: 2px; -moz-border-radius: 2px; -ms-border-radius: 2px; -o-border-radius: 2px; border-radius: 2px; background: #d17e08; color: white; }
 
