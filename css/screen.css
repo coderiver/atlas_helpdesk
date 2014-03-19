@@ -474,3 +474,5 @@ a.back_text:before { display: none; }
 .rating_small { position: relative; top: 0; right: auto; width: 74px; padding: 0 8px; }
 .rating_small ul li { margin-left: 2px; background: url('../img/icons-s97f4d6f5c4.png') 0 -615px no-repeat; width: 13px; height: 12px; }
 .rating_small ul li.is-active { background: url('../img/icons-s97f4d6f5c4.png') 0 -687px no-repeat; width: 13px; height: 12px; }
+
+.download__logo { margin-bottom: 30px; }
