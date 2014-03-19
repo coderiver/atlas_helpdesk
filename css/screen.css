@@ -476,3 +476,6 @@ a.back_text:before { display: none; }
 .rating_small ul li.is-active { background: url('../img/icons-s97f4d6f5c4.png') 0 -687px no-repeat; width: 13px; height: 12px; }
 
 .download__logo { margin-bottom: 30px; }
+
+.download__left { color: white; font-size: 16px; }
+.download__left > div { font-weight: bold; margin-bottom: 20px; }
