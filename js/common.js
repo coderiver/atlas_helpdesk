@@ -132,6 +132,13 @@ $(document).ready(function() {
         event.stopPropagation();
     });
 
+    // dowmload dropdown
+
+    $(".js-download").hide();
+    $(".js-download-btn").on('click', function(){
+        $(this).next().slideToggle('fast');
+    });
+
     $(document).click(function() {
         $(".js-select-list").hide();
         $(".js-select").removeClass("is-active");

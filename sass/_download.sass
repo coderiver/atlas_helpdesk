@@ -2,9 +2,81 @@
 
 .download__logo
     margin-bottom: 30px
+.download__item
+    padding: 32px 0
+    border-top: 2px solid #5a5a5a
+.download__topper
+    +clr
+    margin-bottom: 15px
+.download__list
+    margin-bottom: 60px         
 .download__left
+    float: left
     color: #fff
     font-size: 16px
     & > div
         font-weight: bold
-        margin-bottom: 20px
+        margin-bottom: 15px
+.download__btn
+    position: relative
+    float: right
+    width: 95px
+    height: 44px
+    padding: 5px 10px 5px 54px  
+    background: #d17d07
+    +border-radius(2px)
+    color: #fff
+    font-size: 13px
+    font-weight: bold
+    text-decoration: none
+    +text-shadow(0 1px 0 #be5d03)
+    p
+        margin-bottom: 4px
+    span
+        font-size: 14px
+        font-weight: normal    
+    &.googleplay
+        &:before
+            content: ""
+            position: absolute
+            top: 10px
+            left: 16px
+            +s(googleplay)
+    &.apple
+        &:before
+            content: ""
+            position: absolute
+            top: 10px
+            left: 16px
+            +s(apple)
+    &.windows
+        &:before
+            content: ""
+            position: absolute
+            top: 14px
+            left: 15px
+            +s(windows)
+    &.windows-old
+        &:before
+            content: ""
+            position: absolute
+            top: 11px
+            left: 11px
+            +s(windows-old)                                        
+.download__more
+    position: relative
+    display: inline-block
+    color: #d17e08
+    font-size: 14px
+    font-weight: bold
+    padding-left: 28px
+    cursor: pointer 
+    &:before
+        content: ""
+        position: absolute
+        top: 5px
+        left: 0
+        +s(download-arr)
+.download__content
+    padding-top: 20px 
+    color: #fff                      
