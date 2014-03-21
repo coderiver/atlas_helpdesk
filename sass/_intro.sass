@@ -170,6 +170,8 @@
     background: #d6d6d6
     .btn
         float: left
+    .chatting__top
+
 .back, .ok
     position: relative
     float: left
@@ -190,7 +192,20 @@
         background: url(../img/back_btn.png) 0 0 no-repeat
         border: none
         &:before
-            display: none      
+            display: none
+    .rating
+        position: relative
+        top: 8px
+        float: right
+        width: auto 
+        span
+            display: inline-block
+            vertical-align: middle
+            color: #6b6a6a
+            margin-right: 3px
+        ul
+            display: inline-block
+            vertical-align: middle              
 .chatting__title
     float: left
     line-height: 32px 
@@ -303,12 +318,11 @@
         +clr
         li
             float: left
-            margin-left: 5px 
-            +s(star)
+            +s(ic_star_normal)
             &:first-child
                 margin-left: 0
             &.is-active
-                +s(star-orange)
+                +s(ic_star_activated)
 .rating_small
     position: relative
     top: 0

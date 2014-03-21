@@ -1,0 +1,175 @@
+<!doctype html>
+<!--[if lte IE 8]><html class="lteie8"><![endif]-->
+<!--[if gt IE 8]><!--><html><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<title>opened_ticket+reply</title>
+	<meta name="viewport" content="initial-scale=1"/>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" media="screen" href="css/screen.css" >
+	<!--[if IE]><script src="js/html5shiv.js"></script><![endif]-->
+	<script src="js/jquery.js"></script>
+	<script src="js/common.js"></script>
+</head>
+<body>
+
+<!-- BEGIN  out-->
+<div class="out">
+	<header class="header">
+		<div class="container header__inner">
+			<h1 class="logo">
+				<a href="intro.html">Atlas</a>
+			</h1>
+			<div class="profile">
+				<a href="#">Jamesbond</a>
+			</div>
+			<nav class="menu">
+				<ul>
+					<li><a href="intro.html"><span>О проекте</span></a></li>
+					<li><a href="download.html">Скачать</a></li>
+					<li><a href="FAQs.html"><span>FAQ’s</span></a></li>
+					<li><a href="new.html" class="is-active"><span>Техподдержка</span><span class="notif">27</span></a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<div class="container">
+		<div class="main">
+			<div class="tools">
+				<div class="fl"></div>
+				<div class="fr clr">
+					<div class="select js-select">
+					    <span class="select__text js-select-text">Выбрать</span>
+					    <input type="hidden" class="js-select-input" value="0">
+					    <ul class="dropdown dropdown_wide js-select-list">
+					        <li data-id="0"><a href="#">Ответить</a></li>
+					        <li data-id="1"><a href="#">Переместить (Новые)</a></li>
+					        <li data-id="2"><a href="#">Переместить (В процессе)</a></li>
+					        <li data-id="3"><a href="#">Удалить</a></li>
+					    </ul>
+					</div>
+					<div class="search">
+						<form>
+							<input class="input" type="text">
+							<button type="submit"></button>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="box box_chatting clr">
+				<div class="box__left">
+					<ul class="box__menu">
+						<li class="in-progress">
+							<a class="notif-wrap is-active" href="pending.html"><span>В процессе</span><span class="notif">7</span></a>
+						</li>
+						<li class="closed">
+							<a class="notif-wrap" href="closed.html"><span>Закрытые</span></a>
+						</li>
+						<li class="deleted">
+							<a class="notif-wrap" href="deleted.html"><span>Корзина</span></a>
+						</li>
+					</ul>
+				</div>
+				<div class="box__right ">
+					<div class="chatting">
+						<div class="chatting__top">
+							<a class="back" href="new.html"></a>
+							<button class="btn js-show-chat">Ответить</button>
+							<div class="chatting__title">Добавление друзей</div>
+							<div class="rating">
+								<span>Оценить</span>
+								<ul>
+									<li class="is-active"></li>
+									<li class="is-active"></li>
+									<li></li>
+									<li></li>
+									<li></li>
+								</ul>
+							</div>
+						</div>
+						<div class="chatting__message js-chat-form">
+							<form>
+								<textarea></textarea>
+								<div class="chatting__btns">
+									<button class="btn">Отправить</button>
+									<button class="cancel js-hide-chat" type="reset">Отменить</button>
+								</div>
+							</form>
+						</div>
+						<div class="archieve archieve_mod">
+							<div class="archieve__header">
+								<div class="archieve__title">Чат-архив</div>
+								<div class="archieve__time">11:00 17 фев 2014</div>
+							</div>
+							<ul class="archieve__chat">
+								<li class="archieve__item">
+									<div class="archieve__message">
+										<p>Jack,</p>
+										<p>Unfortunately your service has been terminated and all data has been removed from our servers. You will need to order a new service via our website. Should you have any further questions, feel free to ask.</p>
+										<p>Thank you.</p>
+									</div>
+								</li>
+							</ul>
+						</div>	
+					</div>
+				</div>
+			</div>
+		</div>	
+	</div>
+	<div class="help">
+		<div class="help__btn">Помощь</div>
+		<div class="help__content">
+			<div class="help__title">Задать вопрос или связаться по чату</div>
+			<div class="help__form">
+				<form>
+					<div class="help__row">
+						<div class="help__left">Тема:</div>
+						<div class="help__right">
+							<div class="select js-select">
+								<span class="select__text js-select-text"></span>
+					    		<input type="hidden" class="js-select-input" value="0">
+					    		<ul class="select__list js-select-list">
+					        		<li data-id="0">Выбрать</li>
+					        		<li data-id="1">var1</li>
+					        		<li data-id="2">var2</li>
+					        		<li data-id="3">var3</li>
+					    		</ul>
+							</div>
+						</div>
+					</div>
+					<div class="help__row">
+						<div class="help__left">Email:</div>
+						<div class="help__right">
+							<input class="input" type="text">
+						</div>
+					</div>	
+					<div class="help__row">
+						<div class="help__left">Сообщение:</div>
+						<div class="help__right">
+							<textarea class="textarea"></textarea>
+						</div>
+					</div>
+					<div class="help__row">
+						<div class="help__left"></div>
+						<div class="help__right">
+							<div class="help__bot">
+								<a class="help__chat" href="#">Чат</a>
+								<button class="help__submit" type="submit">Отправить</button>
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>	
+		</div>
+	</div>
+	<div class="divide"></div>
+	<div class="push"></div>
+</div>
+<!-- END out-->
+<footer class="footer">
+	<span>© 2014 ATLAS</span>
+</footer>
+
+
+</body>
+</html>
