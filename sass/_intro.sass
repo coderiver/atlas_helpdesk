@@ -90,7 +90,30 @@
 .theses__item
     margin-bottom: 48px
     .h2
+        position: relative 
         margin-bottom: 30px
+        padding-left: 50px 
+        &.money
+            &:before
+                content: ""
+                position: absolute
+                top: 0
+                left: 0
+                +s(money)
+        &.terms
+            &:before
+                content: ""
+                position: absolute
+                top: 0
+                left: 0
+                +s(terms)
+        &.info
+            &:before
+                content: ""
+                position: absolute
+                top: 0
+                left: 0
+                +s(info)                
 .theses__list
     font-size: 16px
     color: #404040
