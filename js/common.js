@@ -29,7 +29,12 @@ $(document).ready(function() {
                 event.stopPropagation();
                 return false;
             });
+            $(".help").on('click', function(event){
+                $(".js-select-list").hide();
+                event.stopPropagation();
+            });
         });
+
     }
     select();
     $('.js-select').click(function(event){

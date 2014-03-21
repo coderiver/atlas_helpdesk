@@ -293,12 +293,12 @@ a.back_text:before { display: none; }
 
 .select { position: relative; width: 103px; height: 32px; -webkit-border-radius: 2px; -moz-border-radius: 2px; -ms-border-radius: 2px; -o-border-radius: 2px; border-radius: 2px; background: #6c6c6c; cursor: pointer; }
 
-.select__text { position: relative; display: block; padding-left: 15px; padding-right: 23px; height: 32px; line-height: 32px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: #f7f7f7; font-size: 12px; -webkit-font-smoothing: antialiased; -moz-font-smoothing: antialiased; -ms-font-smoothing: antialiased; -o-font-smoothing: antialiased; text-shadow: 0 1px 0 rgba(108, 108, 108, 0.3); }
+.select__text { position: relative; display: block; padding-left: 11px; padding-right: 23px; height: 32px; line-height: 32px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: #f7f7f7; font-size: 12px; -webkit-font-smoothing: antialiased; -moz-font-smoothing: antialiased; -ms-font-smoothing: antialiased; -o-font-smoothing: antialiased; text-shadow: 0 1px 0 rgba(108, 108, 108, 0.3); }
 .select__text:after { content: ""; position: absolute; right: 15px; top: 50%; margin-top: -4px; background: url('../img/icons-s9fc772488c.png') 0 -1340px no-repeat; width: 9px; height: 8px; }
 
 .select__list { position: absolute; display: none; left: -1px; right: -1px; top: 100%; z-index: 100; border: 1px solid #cacaca; border-top: 0; background: white; }
 .select__list li { padding: 5px 11px; cursor: pointer; line-height: 1; }
-.select__list li:hover { background: #717791; color: white; }
+.select__list li:hover { background: #e78a07; color: white; }
 
 .checkbox__label { float: left; white-space: nowrap; font-size: 12px; color: #eeeeee; padding-left: 8px; padding-top: 6px; }
 
