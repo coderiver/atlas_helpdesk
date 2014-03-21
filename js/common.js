@@ -1,4 +1,5 @@
 $(document).ready(function() {
+    
     function select() {
         $(".js-select").each(function(){
             var select_list = $(this).find(".js-select-list");
@@ -106,7 +107,11 @@ $(document).ready(function() {
 
     $(".js-request-btn").on('click', function(){
         $(".js-request").show();
-    }); 
+    });
+    $(".js-request-close").on('click', function(){
+        $(".js-request").hide();
+    });
+     
 
     // toggle popup user
 
