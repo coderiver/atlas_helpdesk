@@ -140,10 +140,41 @@
 	.box__right
 		background: #f7f7f7 	 
 .box__menu
+	li
+		position: relative
+		padding-left: 10px
+		&.new
+			&:before
+				content: ""
+				position: absolute
+				top: 7px 
+				left: 23px
+				+s(new)
+		&.in-progress
+			&:before
+				content: ""
+				position: absolute
+				top: 5px 
+				left: 26px
+				+s(in-progress)
+		&.closed
+			&:before
+				content: ""
+				position: absolute
+				top: 7px 
+				left: 25px
+				+s(closed)
+		&.deleted
+			&:before
+				content: ""
+				position: absolute
+				top: 7px 
+				left: 25px
+				+s(deleted)						
 	a
 		display: block
 		height: 30px
-		padding: 0 22px 0 28px 
+		padding: 0 22px 0 43px 
 		line-height: 30px
 		color: #fff
 		text-decoration: none
