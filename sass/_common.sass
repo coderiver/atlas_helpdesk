@@ -63,7 +63,9 @@ body
 
 .divide
 	height: 5px
-	background: $orange  
+	background: $orange
+.divide_light
+	background: #e78a06 	  
 .container
 	width: 1000px 
 	margin: 0 auto
@@ -132,6 +134,10 @@ body
 		&.is-open
 			&:before
 				+s(arr-up)
+	.dropdown
+		li
+			a
+				font-weight: bold		
 .profile_hidden
 	+opacity(0)
 .dropdown

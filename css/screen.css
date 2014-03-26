@@ -27,6 +27,8 @@ body { min-width: 1000px; font-size: 12px; font-family: Tahoma, Arial, sans-seri
 
 .divide { height: 5px; background: #d17e08; }
 
+.divide_light { background: #e78a06; }
+
 .container { width: 1000px; margin: 0 auto; }
 
 .h2, .h3 { font-size: 20px; font-weight: bold; color: #d17e08; }
@@ -57,6 +59,7 @@ body { min-width: 1000px; font-size: 12px; font-family: Tahoma, Arial, sans-seri
 .profile > a { position: relative; display: inline-block; padding-right: 23px; margin-top: 29px; font-size: 14px; color: #eeeeee; text-decoration: none; }
 .profile > a:before { content: ""; position: absolute; top: 6px; right: 7px; background: url('../img/icons-s7c866d65a0.png') 0 -1406px no-repeat; width: 9px; height: 8px; }
 .profile > a.is-open:before { background: url('../img/icons-s7c866d65a0.png') 0 -1442px no-repeat; width: 9px; height: 8px; }
+.profile .dropdown li a { font-weight: bold; }
 
 .profile_hidden { filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0); opacity: 0; }
 
@@ -413,7 +416,7 @@ a.back_text:before { display: none; }
 .intro__text p { margin-bottom: 10px; }
 .intro__text .h2 { margin-bottom: 30px; }
 
-.intro__img { text-align: center; margin-bottom: 55px; }
+.intro__img { text-align: center; margin-bottom: 55px; font-size: 14px; color: #939393; }
 
 .wrpapper_grey { position: relative; background: url(../img/ptrn-grey.png); }
 .wrpapper_grey:before { content: ""; position: absolute; top: 0; left: 0; bottom: 0; right: 0; background-image: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 100, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(50%, rgba(0, 0, 0, 0.3)), color-stop(100%, rgba(0, 0, 0, 0.5))); background-image: -webkit-radial-gradient(center center, 100% 100%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 0.5) 100%); background-image: -moz-radial-gradient(center center, 100% 100%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 0.5) 100%); background-image: -o-radial-gradient(center center, 100% 100%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 0.5) 100%); background-image: radial-gradient(center center, 100% 100%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 0.5) 100%); z-index: 0; }
