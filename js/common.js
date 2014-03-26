@@ -142,12 +142,33 @@ $(document).ready(function() {
         event.stopPropagation();
     });
 
-    // dowmload dropdown
+    // download dropdown
 
     $(".js-download").hide();
     $(".js-download-btn").on('click', function(){
         $(this).next().slideToggle('fast');
     });
+
+
+    // reset search input
+
+    function reset_search() {
+        var input = $(".search_faq input");
+        $(".js-reset").hide();
+        input.keyup(function(){
+            if ( this.value !== 0 ) {
+                $(this).parent().find('.js-reset').show();
+            };
+        });
+        $('.js-reset').on('click', function(){
+            $(this).hide();
+            window.location.href = 'FAQs.html';
+        });
+
+    } 
+
+    reset_search();
+    
 
     $(document).click(function() {
         $(".js-select-list").hide();
