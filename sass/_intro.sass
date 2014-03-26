@@ -34,32 +34,32 @@
         z-index: 1
 .video
     position: relative
-    width: 623px
-    height: 414px
+    width: 697px
+    height: 471px
     margin: 65px auto 0
     background: url(../img/tv.png) 0 0 no-repeat
 .video__container
     position: absolute
     top: 9px
-    left: 12px
-    width: 597px 
-    height: 338px
+    left: 10px
+    width: 677px 
+    height: 386px
     overflow: hidden
-.video__darkmask
-    position: absolute
-    top: 0
-    bottom: 0
-    left: 0
-    right: 0
-    background: rgba(0,0,0,.4)
-    z-index: 1
+// .video__darkmask
+//     position: absolute
+//     top: 0
+//     bottom: 0
+//     left: 0
+//     right: 0
+//     background: rgba(0,0,0,.4)
+//     z-index: 1
 .video__lightmask
     position: absolute
     top: 0
     bottom: 0
     right: 0
-    width: 262px
-    background: rgba(255,255,255,.4)
+    width: 300px
+    background: rgba(255,255,255,.1)
     z-index: 2
     &:before
         content: ""
@@ -67,7 +67,7 @@
         top: 0
         left: -22px
         -webkit-transform: rotate(360deg)
-        +arr(22, 338, rgba(255,255,255,.4), br)     
+        +arr(22, 386, rgba(255,255,255,.1), br)     
 .video__play
     position: absolute
     top: 50%
