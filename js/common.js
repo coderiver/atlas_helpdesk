@@ -5,7 +5,7 @@ $(document).ready(function() {
             var select_list = $(this).find(".js-select-list");
             var text = select_list.find("li").first().text();
             select_list.hide();
-            $(this).find(".js-select-text").text(text);
+            //$(this).find(".js-select-text").text(text);
             $(this).click(function(event){
                 if ($(this).hasClass("is-active")) {
                     $(this).removeClass("is-active");
