@@ -314,13 +314,11 @@ a.back_text:before { display: none; }
 .checkbox input { display: none; }
 .checkbox input:checked + i { position: absolute; top: 3px; left: 3px; background: url('../img/icons-s7c866d65a0.png') 0 -50px no-repeat; width: 14px; height: 13px; }
 
-.main { padding: 0 15px; }
-
 .box { background: #6c6c6c; -webkit-border-radius: 2px; -moz-border-radius: 2px; -ms-border-radius: 2px; -o-border-radius: 2px; border-radius: 2px; overflow: hidden; margin-bottom: 30px; }
 
 .box__left { float: left; width: 198px; padding-top: 50px; }
 
-.box__right { float: right; width: 772px; background: #e6e6e6; min-height: 528px; }
+.box__right { float: right; width: 802px; background: #e6e6e6; min-height: 528px; }
 
 .box_chatting .box__right { background: #f7f7f7; }
 
@@ -342,7 +340,8 @@ a.back_text:before { display: none; }
 .table thead { height: 48px; background: #f2bf78; color: #ac6e16; padding: 0 3px; }
 .table th { height: 48px; border-left: 1px solid #d09b52; vertical-align: middle; }
 .table th:first-child { border-left: none; width: 48px; }
-.table th p { position: relative; display: inline-block; padding-right: 8px; padding-left: 5px; cursor: pointer; }
+.table th.table__user { width: 126px; }
+.table th p { position: relative; display: inline-block; padding-right: 8px; cursor: pointer; }
 .table th p i { vertical-align: middle; display: inline-block; margin-left: 6px; background: url('../img/icons-s7c866d65a0.png') 0 -1328px no-repeat; width: 8px; height: 8px; }
 .table th p i.is-up { background: url('../img/icons-s7c866d65a0.png') 0 -1228px no-repeat; width: 8px; height: 8px; position: relative; top: -2px; }
 .table td { height: 40px; vertical-align: middle; border-left: 1px solid #d2d2d2; }
@@ -351,8 +350,19 @@ a.back_text:before { display: none; }
 .table td span.notif { margin-top: 10px; }
 .table tbody { font-size: 13px; color: #404040; }
 .table tbody tr.white { background: #f7f7f7; }
-.table tbody td { padding: 0 9px; }
+.table tbody td { padding: 0 7px; }
 .table tbody td p.center { text-align: center; }
+
+.table__type { width: 49px; }
+
+.table__time { width: 69px; }
+
+.table__date { width: 89px; }
+
+.table__id { width: 45px; }
+
+.table__user { width: 112px; }
+.table__user a span:first-child { display: block; max-width: 112px; overflow: hidden; -ms-text-overflow: ellipsis; text-overflow: ellipsis; white-space: nowrap; }
 
 .table_new .checkbox_tbody i:before { left: -13px; }
 .table_new .checkbox_tbody input:checked + i:after { left: -9px; }
