@@ -45,16 +45,16 @@ body { min-width: 1000px; font-size: 12px; font-family: Tahoma, Arial, sans-seri
 
 .cancel { display: inline-block; background: transparent; margin: 0 25px; }
 
-.header { height: 60px; background: #515151; margin-bottom: 55px; }
+.header { height: 80px; background: #515151; margin-bottom: 55px; }
 
 .header__inner { *zoom: 1; }
 .header__inner:after { content: " "; display: table; clear: both; }
 
-.logo { float: left; margin-top: 9px; }
+.logo { float: left; margin-top: 20px; }
 .logo a { display: block; font: 0/0 a; text-shadow: none; color: transparent; background: url('../img/icons-s7c866d65a0.png') 0 0 no-repeat; width: 147px; height: 40px; }
 
 .profile { position: relative; float: right; }
-.profile > a { position: relative; display: inline-block; padding-right: 23px; margin-top: 20px; font-size: 14px; color: #eeeeee; text-decoration: none; }
+.profile > a { position: relative; display: inline-block; padding-right: 23px; margin-top: 29px; font-size: 14px; color: #eeeeee; text-decoration: none; }
 .profile > a:before { content: ""; position: absolute; top: 6px; right: 7px; background: url('../img/icons-s7c866d65a0.png') 0 -1406px no-repeat; width: 9px; height: 8px; }
 .profile > a.is-open:before { background: url('../img/icons-s7c866d65a0.png') 0 -1442px no-repeat; width: 9px; height: 8px; }
 
@@ -69,8 +69,8 @@ body { min-width: 1000px; font-size: 12px; font-family: Tahoma, Arial, sans-seri
 .dropdown_pag { width: 47px; top: 36px; }
 
 .menu { overflow: hidden; text-align: center; }
-.menu ul { display: inline-block; margin-top: 16px; }
-.menu ul li { display: inline-block; margin-left: 45px; }
+.menu ul { display: inline-block; margin-top: 27px; }
+.menu ul li { display: inline-block; margin-left: 25px; }
 .menu ul li:first-child { margin-left: 0; }
 .menu ul li a { position: relative; font-size: 18px; color: #eeeeee; font-weight: bold; text-decoration: none; -webkit-font-smoothing: antialiased; -moz-font-smoothing: antialiased; -ms-font-smoothing: antialiased; -o-font-smoothing: antialiased; -webkit-transition: color 0.2s linear; -moz-transition: color 0.2s linear; -o-transition: color 0.2s linear; transition: color 0.2s linear; }
 .menu ul li a:hover { color: #d17e08; }
