@@ -168,6 +168,10 @@ $(document).ready(function() {
     } 
 
     reset_search();
+
+    // draggable elements
+
+    $(".js-draggable").draggable({ containment: "window" });
     
 
     $(document).click(function() {
