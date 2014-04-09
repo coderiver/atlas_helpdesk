@@ -318,8 +318,10 @@ a.back_text:before { display: none; }
 .box__left { float: left; width: 198px; padding-top: 50px; }
 
 .box__right { float: right; width: 802px; background: #e6e6e6; min-height: 528px; }
+.box__right.open-request { background: white; }
 
 .box_chatting .box__right { background: #f7f7f7; }
+.box_chatting .box__right.open-request { background: white; }
 
 .box__menu li { position: relative; }
 .box__menu li.new:before { content: ""; position: absolute; top: 7px; left: 13px; background: url('../img/icons-se29e5cbf20.png') 0 -643px no-repeat; width: 19px; height: 16px; }

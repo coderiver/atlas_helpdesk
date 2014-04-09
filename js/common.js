@@ -22,7 +22,7 @@ $(document).ready(function() {
             select_list.find("li").click(function(event) {
                 var id = $(this).attr("data-id");
                 var text = $(this).text();
-                $(this).parent().parent().find(".js-select-text").text(text);
+                //$(this).parent().parent().find(".js-select-text").text(text);
                 $(this).parent().parent().find(".js-select-input").val(id);
                 $(this).parent().hide();
                 $(this).parents(".js-select").removeClass("is-active");
